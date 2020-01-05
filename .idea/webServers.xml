@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3cb2bb86-1d37-4431-a5bf-81f89e54d054" name="https://github.com/goodsh/CGBTEST.git" url="http://github.com/goodsh/CGBTEST.git">
+        <fileTransfer anonymous="true" host="github.com/goodsh/CGBTEST.git" port="80" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="80" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

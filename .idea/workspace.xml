@@ -10,27 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysUserRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Test/com/test/service/TestSysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/com/test/service/TestSysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysRoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysRoleMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/common/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/role_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/role_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/common/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/common/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -136,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/SysRoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1688">
-              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,8 +165,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Test/com/test/service/TestSysRoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -871,17 +853,11 @@
       <workItem from="1578044765250" duration="790000" />
       <workItem from="1578063124874" duration="2329000" />
       <workItem from="1578129125461" duration="3872000" />
-      <workItem from="1578205808028" duration="4050000" />
+      <workItem from="1578205808028" duration="4704000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDeptDao_update - 2019.12.30 at 17h 21m 17s.xml">
-      <configuration name="TestDeptDao.update" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDeptDao_update - 2019.12.30 at 17h 23m 17s.xml">
-      <configuration name="TestDeptDao.update" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSysDeptService_updata - 2019.12.30 at 17h 37m 48s.xml">
       <configuration name="TestSysDeptService.updata" configurationId="JUnit" />
     </history-entry>
@@ -906,15 +882,20 @@
     <history-entry file="TestSysRoleService_findObject - 2020.01.01 at 17h 56m 42s.xml">
       <configuration name="TestSysRoleService.findObject" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSysRoleService_delect - 2020.01.05 at 15h 38m 37s.xml">
+      <configuration name="TestSysRoleService.delect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSysRoleService_delect - 2020.01.05 at 15h 39m 01s.xml">
+      <configuration name="TestSysRoleService.delect" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284051000" />
+    <option name="totallyTimeSpent" value="284705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="756" y="0" width="784" height="831" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.42561984" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42561984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1389,7 +1370,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/SysRoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1688">
-          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1412,8 +1393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Test/com/test/service/TestSysRoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
