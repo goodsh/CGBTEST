@@ -4,7 +4,9 @@
     <file url="file://$PROJECT_DIR$/src/main/resources/mapper/sys/SysDeptMapper.xml" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/mapper/sys/SysLogMapper.xml" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/mapper/sys/SysMenuMapper.xml" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMapper.xml" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuMapper.xml" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserMapper.xml" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserRoleMapper.xml" dialect="MySQL" />
   </component>
 </project>

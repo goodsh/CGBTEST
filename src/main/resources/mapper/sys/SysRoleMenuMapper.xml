@@ -8,6 +8,10 @@
        delete from jtsys. sys_role_menus
        where menu_id=#{id}
   </delete>
+    
+    <delete id="deleteObjectsByRoleId" parameterType="int">
+        delete from jtsys.sys_role_menus where role_id=#{id}
+    </delete>
 
 </mapper>
 

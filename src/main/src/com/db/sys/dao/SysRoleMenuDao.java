@@ -7,4 +7,12 @@ public interface SysRoleMenuDao {
      * @return
      */
    int deleteObjectsByMenuId(Integer menuId);
+
+    /**
+     * 基于角色id删除关系数据
+     * @param id
+     * @return
+     */
+   int deleteObjectsByRoleId(Integer id);
+
 }

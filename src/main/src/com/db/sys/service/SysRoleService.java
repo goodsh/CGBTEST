@@ -16,4 +16,10 @@ public interface SysRoleService {
      */
     PageObject<SysRole> findPageObjects(String name ,Integer pageCurrent);
 
+    /**
+     * 基于id删除信息
+     * @param id
+     */
+    int deleteObject(Integer id);
+
 }

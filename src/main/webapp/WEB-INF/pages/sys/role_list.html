@@ -51,7 +51,19 @@
 		$("#pageId").load("doPageUI.do",function () {
 			doRoleGetObjects();
 		});
-	})
+		$(".input-group-btn")
+				.on("click",".btn-search",doQueryRoleObjects)
+
+	});
+	function doQueryRoleObjects() {
+		//为什么要在此位置初始化pageCurrent的值为1?
+		//数据查询时页码的初始位置也应该是第一页
+		$("#pageId").data("pageCurrent",1);
+		//为什么要调用doGetObjects函数？
+		//重用js代码，简化jS代码编写。
+		doRoleGetObjects();
+	}
+
 	function doRoleGetObjects() {
 		//1.定义url和参数
 		var url ="role/doFindPageObjects.do"
@@ -64,9 +76,16 @@
 			pageCurrent=1;
 		}
 		var pages={"pageCurrent":pageCurrent}
+		//为什么此位置要获取查询参数的值?
+		//一种冗余的应用方法，目的时让此函数在查询时可以重用。
+		var name=$("#searchNameId").val();
+		//如下语句的含义是什么？动态在js对象中添加key/value,
+		if(name) pages.name=name;//查询时需要
 		//2.发起异步请求
 		//请问如下ajax请求的回调函数参数名可以是任意吗？可以,必须符合标识符的规范
 		$.getJSON(url,pages,function (result) {
+			//JsonResult->PageObject->List<SysConfigs>+...
+			//请问result是一个字符串还是json格式的js对象？对象
 			doHandleRoleResponseResult(result);
 		})
 	}
@@ -88,7 +107,7 @@
 			//2.1 构建tr对象
 			var tr = $("<tr></tr>");
 			//2.2 构建tds对象
-			var tds =doCreatedTds(records[i],i);
+			var tds=doCreatedTds(records[i],i);
 			//2.3 将tds追加到tr中
 			tr.append(tds);
 			//2.4 将tr追加到tbody中
@@ -96,7 +115,8 @@
 		}
 	}
 	function doCreatedTds(row,i) {
-		var tds="<td>+(parseInt(i)+1)+</td>"+
+		var tds=
+				"<td>"+(parseInt(i)+1)+"</td>"+
 				"<td>"+row.name+"</td>"+
 				"<td>"+row.note+"</td>"+
 				"<td>"+new Date(row.createdTime).toLocaleString()+"</td>"+
@@ -113,7 +133,19 @@
 		
 	}
 	function doSetTableBodyErrors(message) {
-		
+		//获取body对象并清空
+		var tBody=$("#tbodyId");
+		tBody.empty();
+		//创建tr对象
+		var tr =$("<tr></tr>")
+		//创建td对象
+		var len =$("table thead").find("tr").find("th").length;
+		var td=$("<td></td>");
+		td.prop("colspan",len);
+		td.append(message);
+		tr.append(td);
+		//将tr追加到tbody
+		tBody.append(tr);
 	}
 	
 

@@ -12,6 +12,10 @@
         select  count(*) from jtsys.sys_roles
         <include refid="queryWhereId"/>
     </select>
+    <delete id="deleteObject" parameterType="int">
+        delete from jtsys.sys_roles where id=#{id}
+    </delete>
+    
 
 <sql id="queryWhereId">
     <where>
@@ -20,6 +24,7 @@
         </if>
     </where>
 </sql>
+    
 
 
 </mapper>

@@ -3,6 +3,8 @@ package com.db.sys.service.impl;
 import com.db.common.exception.ServiceException;
 import com.db.common.vo.PageObject;
 import com.db.sys.dao.SysRoleDao;
+import com.db.sys.dao.SysRoleMenuDao;
+import com.db.sys.dao.SysUserRoleDao;
 import com.db.sys.entity.SysRole;
 import com.db.sys.service.SysRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +15,11 @@ import java.util.List;
 public class SysRoleServiceImpl implements SysRoleService {
     @Autowired
     private SysRoleDao sysRoleDao;
+    @Autowired
+    private SysRoleMenuDao sysRoleMenuDao;
+    @Autowired
+    private SysUserRoleDao sysUserRoleDao;
+
     @Override
     public PageObject<SysRole> findPageObjects(String name, Integer pageCurrent) {
         if (pageCurrent==null || pageCurrent<1){
@@ -41,5 +48,19 @@ public class SysRoleServiceImpl implements SysRoleService {
         pageObject.setRowCount(rowCunt);
         pageObject.setRecords(record);
         return pageObject;
+    }
+
+    @Override
+    public int deleteObject(Integer id) {
+        if (id == null || id<1){
+            throw new ServiceException("id的值不正确,id="+id);
+        }
+        //2.执行dao操作
+        int roes=sysRoleDao.deleteObject(id);
+        if (roes==0){
+            sysRoleMenuDao.deleteObjectsByRoleId(id);
+            sysUserRoleDao.deleteObjectsByRoleId(id);
+        }
+        return roes;
     }
 }

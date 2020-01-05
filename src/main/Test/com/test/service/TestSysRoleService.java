@@ -21,5 +21,12 @@ public class TestSysRoleService extends TestBase {
         System.out.println(sd);
 
     }
+    @Test
+    public void delect(){
+        SysRoleService sysRoleService= ctx.getBean(SysRoleService.class);
+       sysRoleService.deleteObject(5);
+
+    }
+
 
 }

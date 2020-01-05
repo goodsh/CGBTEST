@@ -22,4 +22,11 @@ public interface SysRoleDao {
      * @return
      */
     int getRowCount(@Param("name")String name);
+
+    /**
+     * 根据id删除信息
+     * @param id
+     * @return
+     */
+    int deleteObject(Integer id);
 }
