@@ -3,6 +3,9 @@ package com.db.sys.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ *
+ */
 public class SysRole implements Serializable {
     private static final long serialVersionUID = 2584244104714901293L;
     private Integer id;

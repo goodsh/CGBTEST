@@ -1,5 +1,7 @@
 package com.db.sys.dao;
 
+import org.apache.ibatis.annotations.Param;
+
 public interface SysRoleMenuDao {
     /**
      * 接口中创建基于菜单id删除记录的方法
@@ -14,5 +16,14 @@ public interface SysRoleMenuDao {
      * @return
      */
    int deleteObjectsByRoleId(Integer id);
+
+    /**
+     * 将角色与菜单的关系数据保存到数据库
+     * @param roleId
+     * @param menuIds
+     * @return
+     */
+   int insertObject(@Param("roleId")Integer roleId,
+                    @Param("menuIds")Integer[] menuIds);
 
 }

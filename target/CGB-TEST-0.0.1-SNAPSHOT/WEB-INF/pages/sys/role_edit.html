@@ -1,43 +1,106 @@
 <!-- Horizontal Form -->
- <div class="box box-info">
-      <div class="box-header with-border">
+<div class="box box-info">
+    <div class="box-header with-border">
         <h3 class="box-title">添加角色</h3>
-      </div>
-      <!-- /.box-header -->
-      <!-- form start -->
-      <form class="form-horizontal">
+    </div>
+    <!-- /.box-header -->
+    <!-- form start -->
+    <form class="form-horizontal">
         <div class="box-body">
-          <div class="form-group">
-            <label for="nameId" class="col-sm-2 control-label">名称</label>
+            <div class="form-group">
+                <label for="nameId" class="col-sm-2 control-label">名称</label>
 
-            <div class="col-sm-10">
-              <input type="text" class="form-control" name="name" id="nameId" placeholder="名称">
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="name" id="nameId" placeholder="名称">
+                </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="noteId" class="col-sm-2 control-label">描述</label>
+            <div class="form-group">
+                <label for="noteId" class="col-sm-2 control-label">描述</label>
 
-            <div class="col-sm-10">
-              <input type="text" class="form-control" name="note" id="noteId" placeholder="描述">
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="note" id="noteId" placeholder="描述">
+                </div>
             </div>
-          </div>
-          <div class="form-group">
-				<label class="col-sm-2 control-label">授权</label>
-				<div class="col-sm-10">
-						<ul id="menuTree" class="ztree"></ul>
-				</div>
-		  </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">授权</label>
+                <div class="col-sm-10">
+                    <ul id="menuTree" class="ztree"></ul>
+                </div>
+            </div>
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          <button type="button" class="btn btn-default btn-cancel">Cancel</button>
-          <button type="button" class="btn btn-info pull-right btn-save">Save</button>
+            <button type="button" class="btn btn-default btn-cancel">Cancel</button>
+            <button type="button" class="btn btn-info pull-right btn-save">Save</button>
         </div>
         <!-- /.box-footer -->
-      </form>
-    </div>
-    <script type="text/javascript" src="bower_components/ztree/jquery.ztree.all.min.js"></script>
-    <script type="text/javascript">
+    </form>
+</div>
+<script type="text/javascript" src="bower_components/ztree/jquery.ztree.all.min.js"></script>
+<script type="text/javascript">
+    var zTree;
+    var setting = {
+        simpleData: {
+            data: {
+                enable: true,
+                idKey: "id",//节点数据中保存唯一标识的属性名称
+                pIdKey: "parentId",  //节点数据中保存其父节点唯一标识的属性名称
+                rootPId: null  //根节点id
+            }
+        },
+        check: {
+            enable: true,
+            nocheckInherit: true
+        }//此配置提供复选框操作(可查官方zTree)
+    };
+    $(function () {
+        doLoadSysMenus();
+        $("#mainContentId")
+            .on("click", ".btn-cancel", doCancel)
+            .on("click",".btn-save",doSaveOrUpdate)
+    });
+    function doSaveOrUpdate() {
+        console.log("input");
+        //1.获取表单数据
+        var params = doGetRoleEditFormData();
+        //2.异步提交表单数据
+        var inserUrl = "role/doSaveObject.do";
+        $.post(inserUrl,params,function (result) {
+            if (result.state==1){
+                alert(result.message);
+                doCancel();
+            }else {
+                alert(result.message);
+            }
+        });
+    }
+    function doGetRoleEditFormData() {
+        
+    }
+
+    function doCancel() {
+        var url = "role/doRoleListUI.do";
+        $("#mainContentId").load(url, function () {
+            //移除绑定的数据(修改时会用)
+            $("#mainContentId").removeData();
+        });
+
+    }
+
+    function doLoadSysMenus() {
+        //console.log(zTree)
+        console.log(zTree)
+        var url = "menu/doFindZtreeMenuNodes.do";
+
+        $.getJSON(url, function (result) {
+            if (result.state == 1) {
+                zTree = $.fn.zTree.init($("#menuTree"), setting, result.data);
+            } else {
+                alert(result.message);
+            }
+        });
+    }
+
 
 </script>
     

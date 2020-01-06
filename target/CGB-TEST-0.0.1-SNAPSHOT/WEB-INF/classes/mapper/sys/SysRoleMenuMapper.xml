@@ -12,6 +12,14 @@
     <delete id="deleteObjectsByRoleId" parameterType="int">
         delete from jtsys.sys_role_menus where role_id=#{id}
     </delete>
+    <insert id="insertObject">
+        insert into jtsys.sys_role_menus(role_id, menu_id)
+        VALUES <foreach collection="menuIds"
+                        separator=","
+                        item="item">
+        (#{roleId},#{item})
+    </foreach>
+    </insert>
 
 </mapper>
 

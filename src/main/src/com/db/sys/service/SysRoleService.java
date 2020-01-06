@@ -22,4 +22,12 @@ public interface SysRoleService {
      */
     int deleteObject(Integer id);
 
+    /**
+     * 保存数据信息
+     * @param entity
+     * @param menuIds
+     * @return
+     */
+    int saveObject(SysRole entity,Integer[]menuIds);
+
 }

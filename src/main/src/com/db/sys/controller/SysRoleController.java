@@ -18,10 +18,26 @@ public class SysRoleController {
     public String doRoleListUI(){
         return "sys/role_list";
     }
+    @RequestMapping("doRoleEditUI")
+    public String doRoleEditUI(){
+        return "sys/role_edit";
+    }
     @RequestMapping("doFindPageObjects")
     @ResponseBody
     public JsonResult doFindPageObjects(String name,Integer pageCurrent){
           PageObject<SysRole> pageObject =sysRoleService.findPageObjects(name,pageCurrent);
           return new JsonResult(pageObject);
+    }
+    @RequestMapping("doDeleteObject")
+    @ResponseBody
+    public JsonResult doDeleteObject(Integer id){
+        sysRoleService.deleteObject(id);
+        return new JsonResult("删除成功");
+    }
+    @RequestMapping("doSaveObject")
+    @ResponseBody
+    public JsonResult doSaveObject(SysRole entity,Integer[] menuIds){
+     sysRoleService.saveObject(entity,menuIds);
+     return new JsonResult("保存成功");
     }
 }

@@ -49,22 +49,57 @@
 <script type="text/javascript">
 	$(function(){
 		$("#pageId").load("doPageUI.do",function () {
-			doRoleGetObjects();
+			doGetObjects();
 		});
 		$(".input-group-btn")
 				.on("click",".btn-search",doQueryRoleObjects)
+				.on("click",".btn-add",doLoadEditUI)
+		  $("#tbodyId")
+				  .on("click",".btn-delete",doDeleteObject)
 
 	});
+	function doLoadEditUI() {
+		var title;
+		if($(this).hasClass('btn-add')){
+			title="添加角色";
+			doLoadPageUI(title);
+		}else {
+			title="角色修改";
+			doLoadPageUI(title);
+		}
+	}
+	function doLoadPageUI(title) {
+		var url="role/doRoleEditUI.do";
+		$("#mainContentId").load(url,function () {
+			$(".box-title").html(title);
+		})
+	}
+	function doDeleteObject() {
+
+		//1.获取选中的值(分页显示记录时在tr上要绑定id的值)
+		var id=$(this).parents("tr").data("id");
+		//2.构建参数对象
+		var params={id:id};
+		//3.异步请求执行删除
+		var url ="role/doDeleteObject.do";
+		$.post(url,params,function (result) {
+			if (result.state==1){
+				alert(result.measure);
+			}else {
+				alert(result.message);
+			}
+		})
+	}
 	function doQueryRoleObjects() {
 		//为什么要在此位置初始化pageCurrent的值为1?
 		//数据查询时页码的初始位置也应该是第一页
 		$("#pageId").data("pageCurrent",1);
 		//为什么要调用doGetObjects函数？
 		//重用js代码，简化jS代码编写。
-		doRoleGetObjects();
+		doGetObjects();
 	}
 
-	function doRoleGetObjects() {
+	function doGetObjects() {
 		//1.定义url和参数
 		var url ="role/doFindPageObjects.do"
 		//? 请问data函数的含义是什么？(从指定元素上获取绑定的数据)
@@ -107,16 +142,16 @@
 			//2.1 构建tr对象
 			var tr = $("<tr></tr>");
 			//2.2 构建tds对象
-			var tds=doCreatedTds(records[i],i);
+			var tds=doCreateTds(records[i],i);
 			//2.3 将tds追加到tr中
 			tr.append(tds);
 			//2.4 将tr追加到tbody中
 			tBody.append(tr);
 		}
 	}
-	function doCreatedTds(row,i) {
+	function doCreateTds(row,i){
 		var tds=
-				"<td>"+(parseInt(i)+1)+"</td>"+
+				"<td>"+row.id+"</td>"+
 				"<td>"+row.name+"</td>"+
 				"<td>"+row.note+"</td>"+
 				"<td>"+new Date(row.createdTime).toLocaleString()+"</td>"+
@@ -126,12 +161,10 @@
 				"<td><a class='btn-delete'>delete</a>"+
 				"&nbsp;<a class='btn-update'>update</a></td>";
 		return tds;
-
-
 	}
-	function doSetPagination() {
-		
-	}
+	// function doSetPagination(result) {
+	// 	debugger
+	// }
 	function doSetTableBodyErrors(message) {
 		//获取body对象并清空
 		var tBody=$("#tbodyId");

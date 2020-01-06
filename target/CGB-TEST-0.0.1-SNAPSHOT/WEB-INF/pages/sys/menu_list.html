@@ -116,7 +116,7 @@ $(function(){
    //例如，在修改时绑定过数据
    $("#mainContentId").removeData();
    //页面加载完成时执行菜单数据的异步加载操作
-   doGetObjects();
+   doGetMenuObjects();
    //删除按钮事件注册
    $(".input-group-btn")
    .on("click",".btn-delete",doDeleteObject)
@@ -198,7 +198,7 @@ function doDeleteObject(){
    $.post(url,params,function(result){
 	   if(result.state==1){
 		   alert(result.message);
-		   //doGetObjects();//重新查询执行刷新
+		   //doGetMenuObjects();//重新查询执行刷新
 		   doDeleteTrElement();
 	   }else{
 		   alert(result.message);
@@ -216,7 +216,7 @@ function doDeleteTrElement(){
 	tr.remove();//谁调用remove方法就删除谁
 }
 
-function doGetObjects(){
+function doGetMenuObjects(){
    //1.构建treeTable对象
    var treeTable=new TreeTable(
 		   "menuTable",//tableId

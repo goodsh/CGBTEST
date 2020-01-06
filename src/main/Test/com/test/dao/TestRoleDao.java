@@ -18,6 +18,12 @@ public class TestRoleDao extends TestBase {
        List<SysRole> sd=sysRoleDao.findPageObjects("admin",5,6);
        System.out.println(sd);
     }
+    @Test
+    public void insertObject(){
+        SysRole a = new SysRole();
+       SysRoleDao sysRoleDao= ctx.getBean("sysRoleDao",SysRoleDao.class);
+       sysRoleDao.insertObject(a);
+    }
 
 
 

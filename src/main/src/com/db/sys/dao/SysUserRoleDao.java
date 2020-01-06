@@ -1,5 +1,8 @@
 package com.db.sys.dao;
 
+/**
+ *
+ */
 public interface SysUserRoleDao {
     /**
      *

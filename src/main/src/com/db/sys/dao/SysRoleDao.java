@@ -29,4 +29,11 @@ public interface SysRoleDao {
      * @return
      */
     int deleteObject(Integer id);
+
+    /**
+     * 将角色自身信息保存到数据库
+     * @param entity
+     * @return
+     */
+    int insertObject(SysRole entity);
 }
