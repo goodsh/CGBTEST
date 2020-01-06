@@ -74,8 +74,21 @@
             }
         });
     }
+    //获取表单数据
     function doGetRoleEditFormData() {
-        
+        var params={
+            name:$("#nameId").val(),
+            note:$("#noteId").val()
+        }
+        //获取选中的node节点
+        var menuIds=[];
+        var checkedNodes=zTree.getCheckedNodes(true);//zTree
+        for (var i in checkedNodes){
+            console.log(checkedNodes[i]);
+            menuIds.push(checkedNodes[i].id)
+        }
+        params.menuIds=menuIds.toString()//(1,2,3,4,5)
+        return params;
     }
 
     function doCancel() {
