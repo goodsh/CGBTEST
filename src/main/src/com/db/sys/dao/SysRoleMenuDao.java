@@ -1,6 +1,9 @@
 package com.db.sys.dao;
 
+import com.db.sys.entity.SysRole;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface SysRoleMenuDao {
     /**
@@ -25,5 +28,13 @@ public interface SysRoleMenuDao {
      */
    int insertObject(@Param("roleId")Integer roleId,
                     @Param("menuIds")Integer[] menuIds);
+
+    /**
+     * 2）基于角色id查询菜单信息
+     * @param roleId
+     * @return
+     */
+    List<Integer> findMenuIdsByRoleId(Integer roleId);
+
 
 }

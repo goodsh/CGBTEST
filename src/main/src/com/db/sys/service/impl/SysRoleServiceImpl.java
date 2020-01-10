@@ -3,16 +3,20 @@ package com.db.sys.service.impl;
 import com.db.common.exception.ServiceException;
 import com.db.common.util.PageUtil;
 import com.db.common.vo.PageObject;
+import com.db.common.vo.SysRoleMenuResult;
 import com.db.sys.dao.SysRoleDao;
 import com.db.sys.dao.SysRoleMenuDao;
 import com.db.sys.dao.SysUserRoleDao;
 import com.db.sys.entity.SysRole;
 import com.db.sys.service.SysRoleService;
+import com.db.sys.vo.SysRoleMenuVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class SysRoleServiceImpl implements SysRoleService {
@@ -68,7 +72,7 @@ public class SysRoleServiceImpl implements SysRoleService {
     public int saveObject(SysRole entity, Integer[] menuIds) {
         //1.合法性验证
         if (entity == null) {
-            throw new ServiceException("保存数据不能为空");
+            throw new IllegalArgumentException("保存数据不能为空");
         }
         if (StringUtils.isEmpty(entity.getName())) {
             throw new ServiceException("角色名不能为空");
@@ -77,7 +81,27 @@ public class SysRoleServiceImpl implements SysRoleService {
             throw new ServiceException("必须为角色赋予权限");
         }
         int rows = sysRoleDao.insertObject(entity);
-        sysRoleMenuDao.insertObject(entity.getId(),menuIds);
+        sysRoleMenuDao.insertObject(entity.getId()//此id 来自33行写入
+                ,menuIds);
         return rows;
+    }
+
+    @Override
+    public  Map<String,Object>  findObjectById(Integer id) {
+        //1.合法性验证
+        if (id==null || id<1){
+            throw new IllegalArgumentException("id不对");
+        }
+        //2.执行查询
+        SysRole role=sysRoleDao.findObjectById(id);
+        //3.验证结果并返回
+        if (role==null){
+            throw new ServiceException("记录已经不在");
+        }
+         List<Integer> menuIds=sysRoleMenuDao.findMenuIdsByRoleId(id);
+        Map<String,Object> map =new HashMap<String,Object>();
+        map.put("role",role);
+        map.put("meniIds",menuIds);
+        return map;
     }
 }

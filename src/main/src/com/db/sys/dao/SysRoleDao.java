@@ -1,5 +1,6 @@
 package com.db.sys.dao;
 
+import com.db.sys.vo.SysRoleMenuVo;
 import com.db.sys.entity.SysRole;
 import org.apache.ibatis.annotations.Param;
 
@@ -17,8 +18,10 @@ public interface SysRoleDao {
                                   @Param("startIndex") Integer startIndex,
                                   @Param("pageSize") Integer pageSize
     );
+
     /**
-     * 查询记录总数
+     *
+     * @param name
      * @return
      */
     int getRowCount(@Param("name")String name);
@@ -36,4 +39,20 @@ public interface SysRoleDao {
      * @return
      */
     int insertObject(SysRole entity);
+    /**
+     * 1）基于角色id查询角色信息以及菜单数据
+     * @param id
+     * @return
+     */
+    SysRole  findObjectById(Integer id);
+
+    /**
+     * 添加角色修改的方法
+     * @param entity
+     * @return
+     */
+    int updateObject(SysRole entity);
+
+
+
 }

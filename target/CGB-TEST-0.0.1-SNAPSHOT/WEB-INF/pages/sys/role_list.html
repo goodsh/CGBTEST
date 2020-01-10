@@ -49,25 +49,49 @@
 <script type="text/javascript">
 	$(function(){
 		$("#pageId").load("doPageUI.do",function () {
+			//$("#mainContentId").removeData();
 			doGetObjects();
 		});
 		$(".input-group-btn")
 				.on("click",".btn-search",doQueryRoleObjects)
-				.on("click",".btn-add",doLoadEditUI)
+				.on("click",".btn-add",doLoadEditUI);
 		  $("#tbodyId")
 				  .on("click",".btn-delete",doDeleteObject)
+				  .on("click",".btn-update",doLoadEditUI);
+		//这是获取元素$("tbody").on("click",".btn-update",doLoadEditUI);
+
 
 	});
 	function doLoadEditUI() {
+
+
 		var title;
 		if($(this).hasClass('btn-add')){
 			title="添加角色";
 			doLoadPageUI(title);
-		}else {
+		}else if ($(this).hasClass('btn-update')) {
 			title="角色修改";
-			doLoadPageUI(title);
+			var id=$(this).parents("tr").data("id");
+			doLIstObject(title,id);
 		}
 	}
+	function doLIstObject(title,id) {
+		//根据id查找记录，判定记录是否存在
+		var data={"id":id};
+		var url="role/doFindObjectById.do";
+		$.getJSON(url,data,function (result) {
+			if (result.state==1){
+				//此位置除了要分析正确还要考虑对象不存在的情况
+				$("#mainContentId").data("data",result.data)
+				$("#mainContentId").data("id",id);
+				doLoadPageUI(title);
+			}else {
+				alert(result.message);
+			}
+
+		})
+	}
+
 	function doLoadPageUI(title) {
 		var url="role/doRoleEditUI.do";
 		$("#mainContentId").load(url,function () {
@@ -75,16 +99,16 @@
 		})
 	}
 	function doDeleteObject() {
-
 		//1.获取选中的值(分页显示记录时在tr上要绑定id的值)
 		var id=$(this).parents("tr").data("id");
 		//2.构建参数对象
-		var params={id:id};
+		var params={"id":id};
 		//3.异步请求执行删除
 		var url ="role/doDeleteObject.do";
 		$.post(url,params,function (result) {
 			if (result.state==1){
-				alert(result.measure);
+				alert(result.message);
+				doGetObjects();
 			}else {
 				alert(result.message);
 			}
@@ -100,29 +124,37 @@
 	}
 
 	function doGetObjects() {
-		//1.定义url和参数
-		var url ="role/doFindPageObjects.do"
-		//? 请问data函数的含义是什么？(从指定元素上获取绑定的数据)
-		//此数据会在何时进行绑定？(setPagination,doQueryObjects)
+		//1.params
+		//获取在Page.html中绑定的当前页码值
 		var pageCurrent = $("#pageId").data("pageCurrent");
 		//为什么要执行如下语句的判定，然后初始化pageCurrent的值为1
 		//pageCurrent参数在没有赋值的情况下，默认初始值应该为1.
 		if (!pageCurrent) {
 			pageCurrent=1;
 		}
-		var pages={"pageCurrent":pageCurrent}
-		//为什么此位置要获取查询参数的值?
-		//一种冗余的应用方法，目的时让此函数在查询时可以重用。
+		var pages={"pageCurrent":pageCurrent};
+		//如下语句的含义是什么？动态在js对象中添加key/value
+		//获取查询时用户输入的名字
 		var name=$("#searchNameId").val();
-		//如下语句的含义是什么？动态在js对象中添加key/value,
 		if(name) pages.name=name;//查询时需要
+		//定义url和参数
+		var url ="role/doFindPageObjects.do";
 		//2.发起异步请求
 		//请问如下ajax请求的回调函数参数名可以是任意吗？可以,必须符合标识符的规范
+		//3.ajax request
+		console.log(pages);
 		$.getJSON(url,pages,function (result) {
 			//JsonResult->PageObject->List<SysConfigs>+...
 			//请问result是一个字符串还是json格式的js对象？对象
 			doHandleRoleResponseResult(result);
-		})
+		});
+		//? 请问data函数的含义是什么？(从指定元素上获取绑定的数据)
+		//此数据会在何时进行绑定？(setPagination,doQueryObjects)
+
+
+
+
+
 	}
 	function doHandleRoleResponseResult(result) {
 		 if (result.state==1){
@@ -141,6 +173,7 @@
 		for (var i in records){
 			//2.1 构建tr对象
 			var tr = $("<tr></tr>");
+			tr.data("id",records[i].id);
 			//2.2 构建tds对象
 			var tds=doCreateTds(records[i],i);
 			//2.3 将tds追加到tr中
@@ -149,9 +182,37 @@
 			tBody.append(tr);
 		}
 	}
+
+
+	function doSetTableBodyErrors(message) {
+		//获取body对象并清空
+		var tBody=$("#tbodyId");
+		tBody.empty();
+			//2.1构建tr对象
+			var tr=$("<tr></tr>");
+			tr.data("id",message[i].id);
+			//2.2构建tds对象
+			var len=$("table thead").find("tr").find("th").length;
+			var td=$("<td></td>");
+			td.prop("colspan",len);
+			//2.3将tds对象追加到tr中
+			tr.append(len);
+			//2.4将tr追加到tbody中
+			tBody.append(tr);
+
+
+		//创建td对象
+		// var len =$("table thead").find("tr").find("th").length;
+		// var td=$("<td></td>");
+		// td.prop("colspan",len);
+		// td.append(message);
+		// tr.append(td);
+		// //将tr追加到tbody
+		// tBody.append(tr);
+	}
 	function doCreateTds(row,i){
 		var tds=
-				"<td>"+row.id+"</td>"+
+				"<td>"+(parseInt(i)+1)+"</td>"+
 				"<td>"+row.name+"</td>"+
 				"<td>"+row.note+"</td>"+
 				"<td>"+new Date(row.createdTime).toLocaleString()+"</td>"+
@@ -162,25 +223,7 @@
 				"&nbsp;<a class='btn-update'>update</a></td>";
 		return tds;
 	}
-	// function doSetPagination(result) {
-	// 	debugger
-	// }
-	function doSetTableBodyErrors(message) {
-		//获取body对象并清空
-		var tBody=$("#tbodyId");
-		tBody.empty();
-		//创建tr对象
-		var tr =$("<tr></tr>")
-		//创建td对象
-		var len =$("table thead").find("tr").find("th").length;
-		var td=$("<td></td>");
-		td.prop("colspan",len);
-		td.append(message);
-		tr.append(td);
-		//将tr追加到tbody
-		tBody.append(tr);
-	}
-	
+
 
 </script>
 

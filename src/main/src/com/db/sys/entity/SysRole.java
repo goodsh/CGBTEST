@@ -2,6 +2,7 @@ package com.db.sys.entity;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  *
@@ -15,6 +16,16 @@ public class SysRole implements Serializable {
     private Date modifiedTime;
     private String createdUser;
     private String modifiedUser;
+
+    private List<Integer> menuIds;
+
+    public List<Integer> getMenuIds() {
+        return menuIds;
+    }
+
+    public void setMenuIds(List<Integer> menuIds) {
+        this.menuIds = menuIds;
+    }
 
     public Integer getId() {
         return id;

@@ -16,14 +16,38 @@
     </select>
     <!-- 根据id 删除数据 -->
     <delete id="deleteObject" parameterType="int">
-        delete from jtsys.sys_roles where id=#{id}
+        delete from jtsys.sys_roles
+        where id in(#{id})
     </delete>
-    <!--插入数据 -->
-    <insert id="insertObject">
-        insert into jtsys.sys_roles(id,name,note,createdTime,modifiedTime,createdUser,modifiedUser)
+    <!--
+     1) useGeneratedKeys 表示要使用自增长的主键值
+     2) keyProperty 将自增长主键值赋值给keyProperty
+               指向的参数属性
+    -->
+    <insert id="insertObject"
+            parameterType="com.db.sys.entity.SysRole"
+            useGeneratedKeys="true"
+            keyProperty="id">
+        insert into jtsys.sys_roles(id,name,
+   note,createdTime,modifiedTime,createdUser,modifiedUser)
             values (null,#{name},#{note},now(),now(),
                     #{createdUser},#{modifiedUser})
     </insert>
+
+    <resultMap type="com.db.sys.vo.SysRoleMenuVo"
+               id="sysRoleMenuVo">
+      <!-- one2many -->
+      <collection property="menuIds"
+      column="roleId"
+      select="com.db.sys.dao.SysRoleMenuDao
+      .findMenuIdsByRoleId">
+      </collection>
+  </resultMap>
+
+    <select id="findObjectById" resultType="com.db.sys.entity.SysRole">
+        select id,name,note from jtsys.sys_roles
+        where id=#{id}
+    </select>
     
 
 <sql id="queryWhereId">

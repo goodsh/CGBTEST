@@ -38,6 +38,14 @@ public class TestSysRoleService extends TestBase {
          int s=sysRoleService.saveObject(sysRole,a);
 
     }
+    @Test
+    public void findObjectById() {
+
+        SysRoleService sysRoleService = ctx.getBean(SysRoleService.class);
+//        Map<String,Object> s=sysRoleService.findObjectById(46);
+//        System.out.println(s);
+
+    }
 
 
 }

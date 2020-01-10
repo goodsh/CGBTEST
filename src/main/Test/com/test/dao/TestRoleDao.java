@@ -5,6 +5,7 @@ import com.db.sys.dao.SysDeptDao;
 import com.db.sys.dao.SysRoleDao;
 import com.db.sys.entity.SysDept;
 import com.db.sys.entity.SysRole;
+import com.db.sys.vo.SysRoleMenuVo;
 import com.test.TestBase;
 import org.junit.Test;
 
@@ -19,10 +20,17 @@ public class TestRoleDao extends TestBase {
        System.out.println(sd);
     }
     @Test
-    public void insertObject(){
+    public void testFindObjectByid(){
         SysRole a = new SysRole();
        SysRoleDao sysRoleDao= ctx.getBean("sysRoleDao",SysRoleDao.class);
-       sysRoleDao.insertObject(a);
+//          SysRoleMenuVo svo =sysRoleDao.findObjectById(50 );
+//          System.out.println(svo);
+    }
+    @Test
+    public void testdeleteObject(){
+        SysRoleDao sysRoleDao= ctx.getBean("sysRoleDao",SysRoleDao.class);
+        int a =sysRoleDao.deleteObject(48);
+        System.out.println(a);
     }
 
 

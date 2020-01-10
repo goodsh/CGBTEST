@@ -40,8 +40,8 @@
 <script type="text/javascript">
     var zTree;
     var setting = {
+        data: {
         simpleData: {
-            data: {
                 enable: true,
                 idKey: "id",//节点数据中保存唯一标识的属性名称
                 pIdKey: "parentId",  //节点数据中保存其父节点唯一标识的属性名称
@@ -57,37 +57,40 @@
         doLoadSysMenus();
         $("#mainContentId")
             .on("click", ".btn-cancel", doCancel)
-            .on("click",".btn-save",doSaveOrUpdate)
+            .on("click", ".btn-save", doSaveOrUpdate)
     });
+
     function doSaveOrUpdate() {
+
         console.log("input");
         //1.获取表单数据
         var params = doGetRoleEditFormData();
         //2.异步提交表单数据
         var inserUrl = "role/doSaveObject.do";
-        $.post(inserUrl,params,function (result) {
-            if (result.state==1){
+        $.post(inserUrl, params, function (result) {
+            if (result.state == 1) {
                 alert(result.message);
                 doCancel();
-            }else {
+            } else {
                 alert(result.message);
             }
         });
     }
+
     //获取表单数据
-    function doGetRoleEditFormData() {
-        var params={
-            name:$("#nameId").val(),
-            note:$("#noteId").val()
+    function doGetRoleEditFormData(data) {
+        var params = {
+            name: $("#nameId").val(),
+            note: $("#noteId").val()
         }
         //获取选中的node节点
-        var menuIds=[];
-        var checkedNodes=zTree.getCheckedNodes(true);//zTree
-        for (var i in checkedNodes){
+        var menuIds = [];
+        var checkedNodes = zTree.getCheckedNodes(true);//zTree
+        for (var i in checkedNodes) {
             console.log(checkedNodes[i]);
             menuIds.push(checkedNodes[i].id)
         }
-        params.menuIds=menuIds.toString()//(1,2,3,4,5)
+        params.menuIds = menuIds.toString()//(1,2,3,4,5)
         return params;
     }
 
@@ -101,17 +104,42 @@
     }
 
     function doLoadSysMenus() {
-        //console.log(zTree)
-        console.log(zTree)
-        var url = "menu/doFindZtreeMenuNodes.do";
 
+        //console.log(zTree)
+        console.log(zTree);
+        var url = "menu/doFindZtreeMenuNodes.do";
         $.getJSON(url, function (result) {
             if (result.state == 1) {
-                zTree = $.fn.zTree.init($("#menuTree"), setting, result.data);
+                //zTree = $.fn.zTree.init($("#menuTree"), setting, result.data);
+                zTree = $.fn.zTree.init($("#menuTree")
+                    ,setting,result.data);
+                //修改时添加如下代码(注意先后顺序)
+                var rowDate=$("#mainContentId").data("data");
+                if (rowDate) {
+                    doInitEditFormData(rowDate);
+                }
             } else {
                 alert(result.message);
             }
         });
+    }
+    function doInitEditFormData(data) {
+
+        $("#nameId").val(data.role.name);
+        $("#noteId").val(data.role.note);
+        $("#menuTree").val(data.meniIds);
+
+        //展开所有节点
+        zTree.expandAll(true);
+        //勾选角色所拥有的菜单
+        var menuIds = data.meniIds;
+
+        for(var i in menuIds) {
+            //获取key为id值为menuIds[i]的节点
+            var node = zTree.getNodeByParam("id",menuIds[i]);
+            //选中当前节点
+            zTree.checkNode(node,true,false);
+        }
     }
 
 

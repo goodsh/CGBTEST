@@ -2,7 +2,9 @@ package com.db.sys.service;
 
 import com.db.common.vo.PageObject;
 import com.db.sys.entity.SysRole;
+import com.db.sys.vo.SysRoleMenuVo;
 
+import java.util.Map;
 
 
 /**
@@ -29,5 +31,13 @@ public interface SysRoleService {
      * @return
      */
     int saveObject(SysRole entity,Integer[]menuIds);
+
+    /**
+     * 基于角色id查询角色name，note以及角色对应的
+     * 菜单id
+     * @param id
+     * @return
+     */
+    Map<String,Object> findObjectById(Integer id);
 
 }
