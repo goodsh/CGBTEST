@@ -100,7 +100,7 @@ public class SysRoleServiceImpl implements SysRoleService {
         }
          List<Integer> menuIds=sysRoleMenuDao.findMenuIdsByRoleId(id);
         Map<String,Object> map =new HashMap<String,Object>();
-        map.put("role",role);
+        map.put("rols",role);
         map.put("meniIds",menuIds);
         return map;
     }
