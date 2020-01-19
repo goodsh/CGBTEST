@@ -2,6 +2,7 @@ package com.db.sys.controller;
 
 import com.db.common.vo.JsonResult;
 import com.db.common.vo.PageObject;
+import com.db.common.vo.SysRoleMenuResult;
 import com.db.sys.entity.SysRole;
 import com.db.sys.service.SysRoleService;
 import com.db.sys.vo.SysRoleMenuVo;
@@ -47,9 +48,16 @@ public class SysRoleController {
     @RequestMapping("doFindObjectById")
     @ResponseBody
     public JsonResult doFindObjectById(Integer id){
-        Map<String,Object> map=
-                sysRoleService.findObjectById(id);
+        SysRoleMenuVo map=
+        sysRoleService.findObjectById(id);
         return new JsonResult(map);
+    }
+    @RequestMapping("doUpdateObject")
+    @ResponseBody
+    public JsonResult doUpdateObject(SysRole entity,
+                                     Integer[] menuIds){
+    sysRoleService.updateObject(entity,menuIds);
+    return new JsonResult("修改成功");
     }
 
 }

@@ -81,27 +81,55 @@ public class SysRoleServiceImpl implements SysRoleService {
             throw new ServiceException("必须为角色赋予权限");
         }
         int rows = sysRoleDao.insertObject(entity);
-        sysRoleMenuDao.insertObject(entity.getId()//此id 来自33行写入
-                ,menuIds);
+        sysRoleMenuDao.insertRoleMenuObject(entity.getId()//此id 来自33行写入
+                , menuIds);
         return rows;
     }
 
     @Override
-    public  Map<String,Object>  findObjectById(Integer id) {
+    public SysRoleMenuVo  findObjectById(Integer id) {
         //1.合法性验证
-        if (id==null || id<1){
+        if (id == null || id < 1) {
             throw new IllegalArgumentException("id不对");
         }
         //2.执行查询
-        SysRole role=sysRoleDao.findObjectById(id);
+        SysRoleMenuVo  role = sysRoleDao.findObjectById(id);
+        System.out.println(role);
         //3.验证结果并返回
-        if (role==null){
+        if (role == null) {
             throw new ServiceException("记录已经不在");
         }
-         List<Integer> menuIds=sysRoleMenuDao.findMenuIdsByRoleId(id);
-        Map<String,Object> map =new HashMap<String,Object>();
-        map.put("rols",role);
-        map.put("meniIds",menuIds);
-        return map;
+        //这是第一种实现方式
+//        List<Integer> menuIds = sysRoleMenuDao.findMenuIdsByRoleId(id);
+//        Map<String, Object> map = new HashMap<String, Object>();
+//        map.put("rols", role);
+//        map.put("meniIds", menuIds);
+        return role;
+    }
+
+    @Override
+    public int updateObject(SysRole entity, Integer[] menuIds) {
+        //1.合法性验证
+        if (entity == null) {
+            throw new ServiceException("更新的对象不能为空");
+        }
+        if (entity.getId() == null) {
+            throw new ServiceException("id的值不能为空");
+        }
+        if (StringUtils.isEmpty(entity.getName())) {
+            throw new ServiceException("角色名不能为空");
+        }
+        if (menuIds == null || menuIds.length == 0) {
+            throw new ServiceException("必须为角色指定一个权限");
+        }
+        int rows = sysRoleDao.updateObject(entity);
+        if (rows == 0) {
+            throw new ServiceException("对象可能已经不存在");
+        }
+        sysRoleMenuDao.deleteObjectsByMenuId(entity.getId());
+        sysRoleMenuDao.insertRoleMenuObject(entity.getId(), menuIds);
+
+        return rows;
     }
 }
+

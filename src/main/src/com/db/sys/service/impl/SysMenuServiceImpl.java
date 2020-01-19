@@ -34,7 +34,7 @@ public class SysMenuServiceImpl implements SysMenuService {
             throw new IllegalArgumentException("菜单名不能为空");}
         //.......
         //2.将数据持久化到数据库
-        int rows=sysMenuDao.insertObject(entity);
+        int rows=sysMenuDao.insertMenuObject(entity);
         //3.返回结果
         return rows;
     }

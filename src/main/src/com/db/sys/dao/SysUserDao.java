@@ -7,4 +7,6 @@ public interface SysUserDao {
      * @return
      */
     int getUserCountByDeptId(Integer id);
+
+
 }

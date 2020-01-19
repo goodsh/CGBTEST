@@ -26,7 +26,7 @@ public interface SysRoleMenuDao {
      * @param menuIds
      * @return
      */
-   int insertObject(@Param("roleId")Integer roleId,
+   int insertRoleMenuObject(@Param("roleId")Integer roleId,
                     @Param("menuIds")Integer[] menuIds);
 
     /**
@@ -34,7 +34,9 @@ public interface SysRoleMenuDao {
      * @param roleId
      * @return
      */
-    List<Integer> findMenuIdsByRoleId(Integer roleId);
+  // List<Integer> findMenuIdsByRoleId(Integer roleId);
+
+
 
 
 }

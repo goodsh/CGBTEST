@@ -1,6 +1,7 @@
 package com.db.sys.service;
 
 import com.db.common.vo.PageObject;
+import com.db.common.vo.SysRoleMenuResult;
 import com.db.sys.entity.SysRole;
 import com.db.sys.vo.SysRoleMenuVo;
 
@@ -38,6 +39,8 @@ public interface SysRoleService {
      * @param id
      * @return
      */
-    Map<String,Object> findObjectById(Integer id);
+    SysRoleMenuVo findObjectById(Integer id);
+
+    int updateObject(SysRole entity,Integer[] menuIds);
 
 }

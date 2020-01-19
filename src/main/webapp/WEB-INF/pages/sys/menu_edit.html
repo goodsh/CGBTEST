@@ -172,12 +172,9 @@
         //3.异步提交数据
         $.post(url,params, function (result) {
             if (result.state == 1) {
-
-
                 alert(result.message);
                 doCancel();
             } else {
-
                 alert(result.message);
             }
         })

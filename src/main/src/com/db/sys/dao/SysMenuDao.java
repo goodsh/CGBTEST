@@ -21,7 +21,7 @@ public interface SysMenuDao {
      * @param entity (po对象)-持久化对象
      * @return
      */
-    int insertObject(SysMenu entity);
+    int insertMenuObject(SysMenu entity);
 
     /**
      * 查询菜单节点信息

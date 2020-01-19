@@ -49,7 +49,7 @@
 <script type="text/javascript">
 	$(function(){
 		$("#pageId").load("doPageUI.do",function () {
-			//$("#mainContentId").removeData();
+		$("#mainContentId").removeData();
 			doGetObjects();
 		});
 		$(".input-group-btn")
@@ -63,8 +63,6 @@
 
 	});
 	function doLoadEditUI() {
-
-
 		var title;
 		if($(this).hasClass('btn-add')){
 			title="添加角色";
@@ -76,13 +74,14 @@
 		}
 	}
 	function doLIstObject(title,id) {
+
 		//根据id查找记录，判定记录是否存在
 		var data={"id":id};
 		var url="role/doFindObjectById.do";
 		$.getJSON(url,data,function (result) {
 			if (result.state==1){
 				//此位置除了要分析正确还要考虑对象不存在的情况
-				$("#mainContentId").data("data",result.data)
+				$("#mainContentId").data("data",result.data);
 				$("#mainContentId").data("id",id);
 				doLoadPageUI(title);
 			}else {
@@ -148,13 +147,6 @@
 			//请问result是一个字符串还是json格式的js对象？对象
 			doHandleRoleResponseResult(result);
 		});
-		//? 请问data函数的含义是什么？(从指定元素上获取绑定的数据)
-		//此数据会在何时进行绑定？(setPagination,doQueryObjects)
-
-
-
-
-
 	}
 	function doHandleRoleResponseResult(result) {
 		 if (result.state==1){

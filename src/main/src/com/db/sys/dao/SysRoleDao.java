@@ -1,5 +1,6 @@
 package com.db.sys.dao;
 
+import com.db.common.vo.SysRoleMenuResult;
 import com.db.sys.vo.SysRoleMenuVo;
 import com.db.sys.entity.SysRole;
 import org.apache.ibatis.annotations.Param;
@@ -18,7 +19,6 @@ public interface SysRoleDao {
                                   @Param("startIndex") Integer startIndex,
                                   @Param("pageSize") Integer pageSize
     );
-
     /**
      *
      * @param name
@@ -44,14 +44,16 @@ public interface SysRoleDao {
      * @param id
      * @return
      */
-    SysRole  findObjectById(Integer id);
+    SysRoleMenuVo findObjectById(Integer id);
 
     /**
      * 添加角色修改的方法
-     * @param entity
+     * @param  entity
      * @return
      */
     int updateObject(SysRole entity);
+
+
 
 
 

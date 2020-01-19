@@ -19,7 +19,7 @@
         where id=#{id}
     </update>
 
-    <insert id="insertObject"
+    <insert id="insertMenuObject"
             parameterType="com.db.sys.entity.SysMenu">
         insert into jtsys. sys_menus
         (name,url,type,sort,note,parentId,permission,

@@ -3,6 +3,7 @@ package com.test.dao;
 import com.db.common.vo.DeptNode;
 import com.db.sys.dao.SysDeptDao;
 import com.db.sys.dao.SysRoleDao;
+import com.db.sys.dao.SysRoleMenuDao;
 import com.db.sys.entity.SysDept;
 import com.db.sys.entity.SysRole;
 import com.db.sys.vo.SysRoleMenuVo;
@@ -22,9 +23,9 @@ public class TestRoleDao extends TestBase {
     @Test
     public void testFindObjectByid(){
         SysRole a = new SysRole();
-       SysRoleDao sysRoleDao= ctx.getBean("sysRoleDao",SysRoleDao.class);
-//          SysRoleMenuVo svo =sysRoleDao.findObjectById(50 );
-//          System.out.println(svo);
+       SysRoleMenuDao sysRoleDao= ctx.getBean("sysRoleMenuDao",SysRoleMenuDao.class);
+        // List<Integer> svo =sysRoleDao.findMenuIdsByRoleId(46);
+
     }
     @Test
     public void testdeleteObject(){
@@ -32,8 +33,11 @@ public class TestRoleDao extends TestBase {
         int a =sysRoleDao.deleteObject(48);
         System.out.println(a);
     }
+    @Test
+    public void testfindObjectById(){
 
-
-
-
+        SysRoleDao sysRoleDao= ctx.getBean("sysRoleDao",SysRoleDao.class);
+       SysRoleMenuVo svo =sysRoleDao.findObjectById(47);
+        System.out.println(svo);
+    }
 }

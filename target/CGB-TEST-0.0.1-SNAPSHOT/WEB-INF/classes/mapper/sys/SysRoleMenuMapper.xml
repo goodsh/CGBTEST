@@ -15,7 +15,7 @@
         from jtsys.sys_role_menus
         where role_id = #{id}
     </delete>
-    <insert id="insertObject">
+    <insert id="insertRoleMenuObject">
         insert into jtsys.sys_role_menus(role_id, menu_id)
         values <!--(1,2),(1,3),(1,1),(1,4) -->
         <foreach collection="menuIds"
@@ -28,7 +28,7 @@
     <select id="findMenuIdsByRoleId" resultType="int">
         select menu_id from
             jtsys.sys_role_menus
-        where role_id=#{roleId}
+        where role_id=#{id}
     </select>
 
 
