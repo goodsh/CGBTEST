@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -882,7 +882,7 @@
       <workItem from="1579161990471" duration="3737000" />
       <workItem from="1579167742467" duration="1230000" />
       <workItem from="1579169019138" duration="4152000" />
-      <workItem from="1579405545314" duration="2185000" />
+      <workItem from="1579405545314" duration="2238000" />
     </task>
     <task id="LOCAL-00001" summary="提交成功">
       <created>1578210601946</created>
@@ -982,7 +982,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579409755052</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="用户">
+      <created>1579409880359</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579409880359</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1018,7 +1025,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415672000" />
+    <option name="totallyTimeSpent" value="415725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1059,7 +1066,7 @@
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3101983" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.6294201" />
       <window_info anchor="bottom" id="Inspection Results" order="17" />
-      <window_info anchor="bottom" id="File Transfer" order="18" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="18" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Problems" order="19" />
       <window_info anchor="bottom" id="JRebel Executor" order="20" sideWeight="0.49865952" weight="0.32517985" />
       <window_info anchor="bottom" id="JRebel Console" order="21" sideWeight="0.5013405" side_tool="true" weight="0.3286119" />
