@@ -10,55 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Test/com/test/dao/TestUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Test/com/test/dao/SysRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/com/test/dao/SysRoleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Test/com/test/dao/TestRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/com/test/dao/TestRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysRoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysRoleMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/starter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/menu_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/menu_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/role_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/role_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/role_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/role_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysRoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysRoleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysRoleMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysRoleMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/SysRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/SysRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysMenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysRoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/starter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/menu_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/menu_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysRoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysRoleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysRoleMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysRoleMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/service/SysRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/SysRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysMenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysRoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/dao/SysRoleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/dao/SysRoleMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/dao/TestRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/dao/TestRoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="165">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -169,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/entity/SysUser.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -930,7 +882,7 @@
       <workItem from="1579161990471" duration="3737000" />
       <workItem from="1579167742467" duration="1230000" />
       <workItem from="1579169019138" duration="4152000" />
-      <workItem from="1579405545314" duration="1996000" />
+      <workItem from="1579405545314" duration="2185000" />
     </task>
     <task id="LOCAL-00001" summary="提交成功">
       <created>1578210601946</created>
@@ -1016,7 +968,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578665191565</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="用户">
+      <created>1579409722727</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579409722727</updated>
+    </task>
+    <task id="LOCAL-00014" summary="用户">
+      <created>1579409755052</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579409755052</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1052,7 +1018,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415483000" />
+    <option name="totallyTimeSpent" value="415672000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1065,9 +1031,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.20375335" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.20375335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1091,10 +1056,10 @@
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3281471" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.31142858" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3101983" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.6294201" />
       <window_info anchor="bottom" id="Inspection Results" order="17" />
-      <window_info anchor="bottom" id="File Transfer" order="18" visible="true" weight="0.32761088" />
+      <window_info anchor="bottom" id="File Transfer" order="18" weight="0.32719547" />
       <window_info anchor="bottom" id="Problems" order="19" />
       <window_info anchor="bottom" id="JRebel Executor" order="20" sideWeight="0.49865952" weight="0.32517985" />
       <window_info anchor="bottom" id="JRebel Console" order="21" sideWeight="0.5013405" side_tool="true" weight="0.3286119" />
@@ -1157,7 +1122,8 @@
     <MESSAGE value="提交成功" />
     <MESSAGE value="添加页面" />
     <MESSAGE value="修改页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改页面" />
+    <MESSAGE value="用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1544,13 +1510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Test/com/test/dao/TestUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -1572,6 +1531,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/entity/SysUser.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
