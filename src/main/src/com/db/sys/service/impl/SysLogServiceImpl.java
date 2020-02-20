@@ -52,11 +52,11 @@ public class SysLogServiceImpl implements SysLogService {
 
     @Override
     public int deleteObjects(Integer... ids) {
-//1.判定参数合法性
+        //1.判定参数合法性
         if (ids == null || ids.length == 0) {
             throw new IllegalArgumentException("请先选择");
         }
-//执行删除操作
+        //执行删除操作
         int rows;
         try {
             rows = sysLogDao.deleteObjects(ids);
@@ -65,7 +65,7 @@ public class SysLogServiceImpl implements SysLogService {
             //发出报警信息(例如给运维人员发短信)
             throw new ServiceException("系统故障，正在恢复中...");
         }
-//对结果进行验证
+            //对结果进行验证
         if (rows == 0) {
             throw new ServiceException("记录可能已经不存在");
         }

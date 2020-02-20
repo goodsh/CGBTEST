@@ -38,4 +38,5 @@ public interface SysLogDao {
      */
     int deleteObjects(@Param("ids") Integer... ids);
 
+    List<SysLog> findObjects();
 }

@@ -43,8 +43,8 @@ public interface SysDeptDao {
      * 1)菜单id
      * 2)菜单名称
      * 3)上级菜单id
-     * 将查询出的节点信息封装到Node对象
-     * 1)一行记录一个node对象(行映射-rowMap)
+     * 将查询出的节点信息封装到DeptNode对象
+     * 1)一行记录一个DeptNode对象(行映射-rowMap)
      * 2)多个node对象存储到list集合
      * @return
      */

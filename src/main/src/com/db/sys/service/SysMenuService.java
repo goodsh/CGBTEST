@@ -19,6 +19,11 @@ public interface SysMenuService {
 	 * @return
 	 */
 	int saveObject(SysMenu entity);
+
+	/**
+	 *
+	 * @return
+	 */
 	
 	List<Node> findZtreeMenuNodes();
 	/**

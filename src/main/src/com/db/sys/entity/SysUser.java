@@ -88,4 +88,21 @@ public class SysUser implements Serializable{
 		this.modifiedUser = modifiedUser;
 	}
 
+	@Override
+	public String toString() {
+		return "SysUser{" +
+				"id=" + id +
+				", username='" + username + '\'' +
+				", password='" + password + '\'' +
+				", salt='" + salt + '\'' +
+				", email='" + email + '\'' +
+				", mobile='" + mobile + '\'' +
+				", valid=" + valid +
+				", deptId=" + deptId +
+				", createdTime=" + createdTime +
+				", modifiedTime=" + modifiedTime +
+				", createdUser='" + createdUser + '\'' +
+				", modifiedUser='" + modifiedUser + '\'' +
+				'}';
+	}
 }

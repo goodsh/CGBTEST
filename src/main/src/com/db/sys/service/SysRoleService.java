@@ -1,10 +1,12 @@
 package com.db.sys.service;
 
+import com.db.common.vo.CheckBox;
 import com.db.common.vo.PageObject;
 import com.db.common.vo.SysRoleMenuResult;
 import com.db.sys.entity.SysRole;
 import com.db.sys.vo.SysRoleMenuVo;
 
+import java.util.List;
 import java.util.Map;
 
 
@@ -41,6 +43,19 @@ public interface SysRoleService {
      */
     SysRoleMenuVo findObjectById(Integer id);
 
+    /**
+     *获取所有的角色id,角色名
+     * @return
+     */
+    List<CheckBox> findObjects();
+
+    /**
+     *
+     * @param entity
+     * @param menuIds
+     * @return
+     */
     int updateObject(SysRole entity,Integer[] menuIds);
+
 
 }

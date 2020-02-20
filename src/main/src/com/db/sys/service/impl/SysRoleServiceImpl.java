@@ -2,6 +2,7 @@ package com.db.sys.service.impl;
 
 import com.db.common.exception.ServiceException;
 import com.db.common.util.PageUtil;
+import com.db.common.vo.CheckBox;
 import com.db.common.vo.PageObject;
 import com.db.common.vo.SysRoleMenuResult;
 import com.db.sys.dao.SysRoleDao;
@@ -105,6 +106,11 @@ public class SysRoleServiceImpl implements SysRoleService {
 //        map.put("rols", role);
 //        map.put("meniIds", menuIds);
         return role;
+    }
+
+    @Override
+    public List<CheckBox> findObjects() {
+        return sysRoleDao.findObjects();
     }
 
     @Override

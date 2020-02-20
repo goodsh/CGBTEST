@@ -136,8 +136,6 @@
         $("#sortId").val(rd.sort);
         $("#noteId").val(rd.note);
     }
-
-
     function doCancel() {
         var url = "menu/doMenuListUI.do";
         $("#mainContentId").load(url);
@@ -156,9 +154,7 @@
         };
         return params;
     }
-
     function doSaveOrUpdate() {
-
         //1.获取表单数据
         var params = doGetEditFormData();
       // debugger
@@ -183,7 +179,7 @@
     //点击zTree中的确定按钮时执行此方法
     function doSetSelectNode() {
         //1.获取选中的节点
-        //console.log(zTree);
+        console.log(zTree);
         var nodes = zTree.getSelectedNodes();
         if (nodes.length == 1) {
             //2.将选中节点信息呈现在对应位置

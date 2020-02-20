@@ -51,5 +51,11 @@ public class TestDeptDao extends TestBase {
         int list = sysDeptDao.updataDeptObject(deptNode);
         System.out.println(list);
     }
+    @Test
+    public void findById(){
+        SysDeptDao sysDeptDao =
+                ctx.getBean("sysDeptDao", SysDeptDao.class);
+
+    }
 
 }

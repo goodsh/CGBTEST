@@ -27,6 +27,13 @@ public class SysRoleController {
     public String doRoleEditUI(){
         return "sys/role_edit";
     }
+    @RequestMapping("doFindRoles")
+    @ResponseBody
+    public JsonResult doFindRoles(){
+        return new JsonResult(sysRoleService.findObjects());
+    }
+
+
     @RequestMapping("doFindPageObjects")
     @ResponseBody
     public JsonResult doFindPageObjects(String name,Integer pageCurrent){

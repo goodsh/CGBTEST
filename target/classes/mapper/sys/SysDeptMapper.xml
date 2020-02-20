@@ -2,54 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.db.sys.dao.SysDeptDao">
-
-    <!--    <update id="updateObject"-->
-    <!--            parameterType="com.db.sys.entity.SysMenu">-->
-    <!--        update jtsys. sys_menus-->
-    <!--        set-->
-    <!--        name=#{name},&lt;!&ndash; 底层会调用对象get方法 &ndash;&gt;-->
-    <!--        type=#{type},-->
-    <!--        sort=#{sort},-->
-    <!--        url=#{url},-->
-    <!--        parentId=#{parentId},-->
-    <!--        permission=#{permission},-->
-    <!--        note=#{note},-->
-    <!--        modifiedUser=#{modifiedUser},-->
-    <!--        modifiedTime=now()-->
-    <!--        where id=#{id}-->
-    <!--    </update>-->
-
-    <!--    <insert id="insertObject"-->
-    <!--            parameterType="com.db.sys.entity.SysMenu">-->
-    <!--        insert into jtsys. sys_menus-->
-    <!--        (name,url,type,sort,note,parentId,permission,-->
-    <!--         createdTime,modifiedTime,createdUser,modifiedUser)-->
-    <!--        values-->
-    <!--        (#{name},#{url},#{type},#{sort},#{note},#{parentId},#{permission},-->
-    <!--         now(),now(),#{createdUser},#{modifiedUser})-->
-    <!--    </insert>-->
-
-
-    <!--    <select id="findZtreeMenuNodes"-->
-    <!--            resultType="com.db.common.vo.Node">-->
-    <!--        select id,name,parentId-->
-    <!--        from jtsys. sys_menus-->
-    <!--    </select>-->
-
-
-    <!--    &lt;!&ndash; 基于菜单id统计子菜单个数 &ndash;&gt;-->
-    <!--    <select id="getChildCount" resultType="int">-->
-    <!--        select count(*)-->
-    <!--        from jtsys. sys_menus-->
-    <!--        where parentId=#{id}-->
-    <!--    </select>-->
-
-    <!--    &lt;!&ndash; 基于id删除菜单元素 &ndash;&gt;-->
-    <!--    <delete id="deleteObject">-->
-    <!--        delete from jtsys. sys_menus-->
-    <!--        where id=#{id}-->
-    <!--    </delete>-->
-
     <!-- 查询所有菜单以及上级菜单信息,每行记录都要映射
          为一个map对象 -->
     <select id="findObjects"
@@ -101,6 +53,11 @@
             note=#{note}
         where id = #{id}
     </update>
+    <select id="findById" resultType="com.db.sys.entity.SysDept">
+        select *
+        from jtsys.sys_depts
+        where id = #{deptId}
+    </select>
 
 </mapper>
 

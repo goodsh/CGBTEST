@@ -1,5 +1,6 @@
 package com.db.sys.dao;
 
+import com.db.common.vo.CheckBox;
 import com.db.common.vo.SysRoleMenuResult;
 import com.db.sys.vo.SysRoleMenuVo;
 import com.db.sys.entity.SysRole;
@@ -53,8 +54,9 @@ public interface SysRoleDao {
      */
     int updateObject(SysRole entity);
 
-
-
-
-
+    /**
+     * 查询系统的角色id和name信息
+     * @return
+     */
+    List<CheckBox> findObjects();
 }
