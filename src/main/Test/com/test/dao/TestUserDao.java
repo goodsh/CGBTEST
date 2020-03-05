@@ -7,6 +7,7 @@ import com.db.sys.entity.SysUser;
 import com.db.sys.vo.SysUserDeptVo;
 import com.test.TestBase;
 import org.junit.Test;
+import org.springframework.util.DigestUtils;
 
 import java.util.Date;
 import java.util.List;
@@ -86,4 +87,11 @@ public class TestUserDao extends TestBase {
        int a= sysUserDao.delectsObject(3);
        System.out.println(a);
    }
+   @Test
+   public void findUserByUserName(){
+       SysUserDao sysUserDao= ctx.getBean("sysUserDao",SysUserDao.class);
+        SysUser sysUser=  sysUserDao.findUserByUserName("admin");
+        System.out.println(sysUser);
+   }
+
 }

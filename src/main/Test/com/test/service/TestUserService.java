@@ -1,10 +1,16 @@
 package com.test.service;
 
+import com.db.common.vo.JsonResult;
 import com.db.common.vo.PageObject;
 import com.db.sys.entity.SysUser;
 import com.db.sys.service.SysUserService;
+import com.db.sys.service.realm.ShiroUserRealm;
 import com.db.sys.vo.SysUserDeptVo;
 import com.test.TestBase;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationInfo;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.junit.Test;
 
 import java.util.Map;
@@ -63,6 +69,18 @@ public class TestUserService extends TestBase {
         SysUserService a=ctx.getBean(SysUserService.class);
         SysUser sysUser = new SysUser();
         sysUser.setId(5);
+
+    }
+    @Test
+    public void tdsaed(){
+
+       ShiroUserRealm shiroUserRealm = ctx.getBean(ShiroUserRealm.class);
+
+       String username = "admin";
+       String  password = "1234555556";
+        UsernamePasswordToken token = new UsernamePasswordToken(username,password);
+
+
 
     }
 

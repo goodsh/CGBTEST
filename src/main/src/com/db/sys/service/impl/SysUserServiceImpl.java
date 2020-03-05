@@ -126,7 +126,7 @@ public class SysUserServiceImpl implements SysUserService {
         endtrl.setPassword(sh.toHex());
         int rows = sysUserDao.insertObject(endtrl);
         //3.保存用户与角色关系数据
-        sysUserRoleDao.insertObject(endtrl.getId(),
+        sysUserRoleDao.insertObjects(endtrl.getId(),
                 roleIds);
         //4.返回结果
         return rows;
@@ -143,28 +143,28 @@ public class SysUserServiceImpl implements SysUserService {
         if (roleIds == null || roleIds.length == 0) {
             throw new ServiceException("必须为其指定角色");
         }
-        Boolean firstName=sysUserDao.findObjectName(endeed.getUsername());
+        Boolean firstName = sysUserDao.findObjectName(endeed.getUsername());
         //取得response 实例 ServletActionContext
         if (firstName != null) {
             throw new ServiceException("用户名字已经存在");
         }
         //2.更新用户自身信息
         int row = sysUserDao.updateObject(endeed);
-        sysUserRoleDao.deleteObjectsByRoleId(endeed.getId());
-        sysUserRoleDao.insertObject(endeed.getId(), roleIds);
+        sysUserRoleDao.deleteObjectsByUserId(endeed.getId());
+        sysUserRoleDao.insertObjects(endeed.getId(), roleIds);
         return row;
     }
 
     @Override
-    public int delectObject(Integer id ,SysUser endesda) {
-        if (id==null){
+    public int delectObject(Integer id, SysUser endesda) {
+        if (id == null) {
             throw new IllegalArgumentException("请先选择");
         }
-        int a=sysUserDao.delectsObject(id);
-        if (a==0){
+        int a = sysUserDao.delectsObject(id);
+        if (a == 0) {
             throw new IllegalArgumentException("记录已经不存在");
         }
-        sysUserRoleDao.deleteObjectsByRoleId(endesda.getId());
+        sysUserRoleDao.deleteObjectsByUserId(endesda.getId());
         return a;
     }
 

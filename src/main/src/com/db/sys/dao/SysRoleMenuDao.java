@@ -31,10 +31,11 @@ public interface SysRoleMenuDao {
 
     /**
      * 2）基于角色id查询菜单信息
-     * @param roleId
+     * @param roleIds
      * @return
      */
-  // List<Integer> findMenuIdsByRoleId(Integer roleId);
+   List<Integer> findMenuIdsByRoleIds(
+           @Param("roleIds")Integer[] roleIds);
 
 
 

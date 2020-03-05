@@ -84,6 +84,17 @@ public interface SysUserDao {
      *
      * @return
      */
-    int delectsObject(Integer id);;
+    int delectsObject(Integer id);
+
+    /**
+     *基于用户名查找用户信息
+     * @param username
+     * @param
+     * @return
+     */
+    SysUser findUserByUserName(@Param("username") String username);
+
+
+
 
 }

@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/")
 public class PageController {
+	//返回登录页面
+	@RequestMapping("doLoginUI")
+	public String doLoginUI(){
+		return "login";
+	}
 	@RequestMapping("doIndexUI")
 	public String doIndexUI(){
 		return "starter";

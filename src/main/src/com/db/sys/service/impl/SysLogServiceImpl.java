@@ -5,6 +5,8 @@ import com.db.common.vo.PageObject;
 import com.db.sys.dao.SysLogDao;
 import com.db.sys.entity.SysLog;
 import com.db.sys.service.SysLogService;
+import org.apache.shiro.authz.annotation.RequiresAuthentication;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -50,6 +52,14 @@ public class SysLogServiceImpl implements SysLogService {
         return pageObject;
     }
 
+    /**
+     * 通过@RequiresPermissions注解对
+     * 如下方法进行描述，表示访问此方法
+     * 需要进行授权操作，认证用户必须具备
+     * “sys:log:delete”权限标识才能访问
+     * 此方法。
+     */
+    @RequiresPermissions("sys:log:delete")
     @Override
     public int deleteObjects(Integer... ids) {
         //1.判定参数合法性

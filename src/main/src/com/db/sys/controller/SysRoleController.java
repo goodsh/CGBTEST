@@ -36,6 +36,7 @@ public class SysRoleController {
 
     @RequestMapping("doFindPageObjects")
     @ResponseBody
+
     public JsonResult doFindPageObjects(String name,Integer pageCurrent){
           PageObject<SysRole> pageObject =sysRoleService.findPageObjects(name,pageCurrent);
           return new JsonResult(pageObject);

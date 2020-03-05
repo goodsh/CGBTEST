@@ -67,6 +67,20 @@
         from jtsys. sys_menus c
     </select>
 
+    <!-- 基于菜单id获取权限标识 -->
+    <select id="findPermissions"
+            resultType="string">
+        select permission <!-- sys:user:update -->
+        from jtsys. sys_menus
+        where id in
+        <foreach collection="menuIds"
+                 open="("
+                 close=")"
+                 separator=","
+                 item="item">
+            #{item}
+        </foreach>
+    </select>
 </mapper>
 
 

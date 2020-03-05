@@ -1,34 +1,34 @@
 package com.db.sys.dao;
 
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
 
-/**
- *
- */
+import org.apache.ibatis.annotations.Param;
+
 public interface SysUserRoleDao {
+
+
     /**
-     * 基于用户userId删除用户以及对应角色关系数据
+     * 基于用户id删除用户以及对应角色关系数据
      * @param userId
      * @return
      */
-   int deleteObjectsByRoleId(Integer userId);
+    int deleteObjectsByUserId(Integer userId);
 
     /**
-     * 基于id查询对应角色的信息
+     * 查询用户对应的角色信息
      * @param id
      * @return
      */
-   List<Integer> findRoleIdsByUserId(Integer id);
+    List<Integer> findRoleIdsByUserId(Integer id);
+
     /**
-     * 负责将用户与角色的关系数据写入到数据库
-     * @param userId 用户id
-     * @param roleIds 多个角色id
+     * 保存用户和角色关系数据
+     * @param userId
+     * @param roleIds
      * @return
      */
-   int insertObject(@Param("userId")Integer userId,
-                    @Param("roleIds")Integer [] roleIds);
-
+    int insertObjects(
+            @Param("userId")Integer userId,
+            @Param("roleIds")Integer[]roleIds);
 
 }

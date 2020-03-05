@@ -40,4 +40,12 @@ public class TestRoleDao extends TestBase {
        SysRoleMenuVo svo =sysRoleDao.findObjectById(47);
         System.out.println(svo);
     }
+    @Test
+    public void testfindMenuIdsByRoleIds(){
+        SysRoleMenuDao sysRoleDao= ctx.getBean("sysRoleMenuDao",SysRoleMenuDao.class);
+        Integer [] a = new Integer[]{1,47};
+
+       List<Integer> d= sysRoleDao.findMenuIdsByRoleIds(a);
+       System.out.println(d);
+    }
 }

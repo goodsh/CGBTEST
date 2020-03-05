@@ -65,7 +65,7 @@ public class SysRoleServiceImpl implements SysRoleService {
             throw new ServiceException("数据可能已经不存在");
         }
         sysRoleMenuDao.deleteObjectsByRoleId(id);
-        sysUserRoleDao.deleteObjectsByRoleId(id);
+        sysUserRoleDao.deleteObjectsByUserId(id);
         return roes;
     }
 
@@ -128,10 +128,12 @@ public class SysRoleServiceImpl implements SysRoleService {
         if (menuIds == null || menuIds.length == 0) {
             throw new ServiceException("必须为角色指定一个权限");
         }
+        //2.保存角色自身信息
         int rows = sysRoleDao.updateObject(entity);
         if (rows == 0) {
             throw new ServiceException("对象可能已经不存在");
         }
+        //3.保存角色菜单关系数据
         sysRoleMenuDao.deleteObjectsByMenuId(entity.getId());
         sysRoleMenuDao.insertRoleMenuObject(entity.getId(), menuIds);
 

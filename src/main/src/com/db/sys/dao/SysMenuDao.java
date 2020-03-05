@@ -58,6 +58,13 @@ public interface SysMenuDao {
      */
     List<Map<String,Object>> findObjects();
 
+    /**
+     * 基于菜单id查找权限标识信息
+     * @param menuIds
+     * @return
+     */
+    List<String> findPermissions(@Param("menuIds") Integer[] menuIds);
+
 
 
 }

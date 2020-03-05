@@ -99,6 +99,11 @@
         from jtsys.sys_users
         where id = #{id}
     </select>
+    <select id="findUserByUserName"
+            resultType="com.db.sys.entity.SysUser">
+        select * from jtsys.sys_users where username in(#{username})
+    </select>
+
 
     <sql id="queryWhereId">
         <where>
