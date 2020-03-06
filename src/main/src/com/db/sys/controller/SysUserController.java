@@ -64,7 +64,11 @@ public class SysUserController {
     @PostMapping("doValidById")
     @ResponseBody
     public JsonResult doValidById(Integer id, Integer valid) {
-        sysUserService.validById(id, valid, "admin");
+        //此登录用户是在认证时传入的一个身份，
+        //可以看ShiroUserRealm中的AuthenticationInfo方法
+        SysUser user=(SysUser)
+        SecurityUtils.getSubject().getPrincipal();
+        sysUserService.validById(id, valid, user.getUsername());
         return new JsonResult("更新成功");
     }
 

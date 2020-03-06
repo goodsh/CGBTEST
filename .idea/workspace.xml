@@ -10,85 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/cgb/java/md/TestMd501.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/realm/ShiroUserRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/spring-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-cache-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-config-core-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-core-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-event-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-lang-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-spring-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-5.2.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/md/TestMd501.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/realm/ShiroUserRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/service/TestShiroUserRealm$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/service/TestShiroUserRealm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysLogcontroller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/common/web/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/common/web/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysLogcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysLogcontroller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysRoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysRoleMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysRoleMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysUserRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/dao/SysUserRoleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysLogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysRoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/sys/SysUserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/spring-configs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/spring-configs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/starter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/log_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/log_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/role_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/user_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/user_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/common/web/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/common/web/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysLogcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysLogcontroller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysRoleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysRoleMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysRoleMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysUserRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/dao/SysUserRoleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysLogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysRoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-configs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-configs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/dao/TestMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/dao/TestMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/dao/TestRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/dao/TestRoleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/dao/TestUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/dao/TestUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/service/TestUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/service/TestUserService.class" afterDir="false" />
     </list>
     <list id="ec034c64-2a7f-43bd-9484-76114c4bd7fb" name="dom05" comment="">
       <change afterPath="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/md/TestMd501.java" afterDir="false" />
@@ -159,7 +84,17 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -269,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/SysMenuMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/log_list.html" />
         <option value="$PROJECT_DIR$/src/main/src/com/db/common/web/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/eaadasda.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -285,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/user_list.html" />
+        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java" />
       </list>
     </option>
   </component>
@@ -320,8 +255,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="930" />
-    <option name="y" value="5" />
+    <option name="x" value="907" />
+    <option name="y" value="1" />
     <option name="width" value="990" />
     <option name="height" value="1020" />
   </component>
@@ -337,6 +272,51 @@
             <path>
               <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
               <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -815,7 +795,9 @@
       <workItem from="1583314551144" duration="2096000" />
       <workItem from="1583329579194" duration="872000" />
       <workItem from="1583333957818" duration="6877000" />
-      <workItem from="1583393118958" duration="1067000" />
+      <workItem from="1583393118958" duration="2210000" />
+      <workItem from="1583421952397" duration="597000" />
+      <workItem from="1583474607416" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="提交成功">
       <created>1578210601946</created>
@@ -950,7 +932,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583394337621</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="用户页码2">
+      <created>1583394372406</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583394372406</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -986,7 +975,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="698263000" />
+    <option name="totallyTimeSpent" value="700808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -998,9 +987,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="726" y="1" width="792" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.2922252" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" weight="0.40871936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1011,7 +1001,7 @@
       <window_info id="JRebel" order="8" sideWeight="0.5010661" side_tool="true" weight="0.4305949" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31586403" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.44334278" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.44298247" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.4220963" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1019,14 +1009,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" weight="0.32577905" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3288889" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32714286" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3260234" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402147" side_tool="true" weight="0.4305949" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3281471" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.305949" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.6294201" />
       <window_info anchor="bottom" id="Inspection Results" order="16" />
-      <window_info anchor="bottom" id="File Transfer" order="17" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="File Transfer" order="17" weight="0.32577905" />
       <window_info anchor="bottom" id="Spring" order="18" weight="0.3286119" />
       <window_info anchor="bottom" id="Problems" order="19" />
       <window_info anchor="bottom" id="JRebel Executor" order="20" sideWeight="0.4966488" weight="0.33427763" />
@@ -1040,7 +1030,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.37064344" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.536193" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.5354223" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.31233245" />
@@ -1135,7 +1125,8 @@
     <MESSAGE value="修改页面" />
     <MESSAGE value="用户" />
     <MESSAGE value="用户页码" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户页码" />
+    <MESSAGE value="用户页码2" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户页码2" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1371,13 +1362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2409">
-          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2772">
@@ -1485,6 +1469,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="10" selection-end-line="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
         </state>
       </provider>
     </entry>
