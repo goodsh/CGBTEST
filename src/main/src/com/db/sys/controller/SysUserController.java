@@ -68,6 +68,7 @@ public class SysUserController {
         //可以看ShiroUserRealm中的AuthenticationInfo方法
         SysUser user=(SysUser)
         SecurityUtils.getSubject().getPrincipal();
+
         sysUserService.validById(id, valid, user.getUsername());
         return new JsonResult("更新成功");
     }
