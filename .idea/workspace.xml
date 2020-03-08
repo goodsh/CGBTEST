@@ -9,7 +9,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="用户页码2">
+    <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/Aspect.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/DaoProxyFactory.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/DaoProxyHandler.class" afterDir="false" />
@@ -36,8 +36,6 @@
       <change afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/logingAspect/LoggingAspect.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/spring-aop.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/service/TestAOP01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="ec034c64-2a7f-43bd-9484-76114c4bd7fb" name="dom05" comment="" />
@@ -940,7 +938,7 @@
       <workItem from="1583474607416" duration="8488000" />
       <workItem from="1583566981774" duration="8113000" />
       <workItem from="1583587275668" duration="6000000" />
-      <workItem from="1583648912307" duration="372000" />
+      <workItem from="1583648912307" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="提交成功">
       <created>1578210601946</created>
@@ -1110,7 +1108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583649255676</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="用户页码2">
+      <created>1583649294408</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1583649294408</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1146,7 +1151,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="722976000" />
+    <option name="totallyTimeSpent" value="723059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1160,7 +1165,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.81970507" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.81970507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1186,7 +1191,7 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.305949" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.6294201" />
       <window_info anchor="bottom" id="Inspection Results" order="16" />
-      <window_info anchor="bottom" id="File Transfer" order="17" visible="true" weight="0.32577905" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="17" visible="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Spring" order="18" weight="0.3286119" />
       <window_info anchor="bottom" id="Problems" order="19" />
       <window_info anchor="bottom" id="JRebel Executor" order="20" sideWeight="0.4966488" weight="0.33427763" />
