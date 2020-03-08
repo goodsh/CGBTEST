@@ -5,7 +5,7 @@
       <paths name="https://github.com/goodsh/CGBTEST.git">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="https://github.com/goodsh/CGBTEST.git" />
           </mappings>
         </serverdata>
       </paths>

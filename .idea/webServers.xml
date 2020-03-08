@@ -3,9 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="3cb2bb86-1d37-4431-a5bf-81f89e54d054" name="https://github.com/goodsh/CGBTEST.git" url="http://github.com/goodsh/CGBTEST.git">
-        <fileTransfer host="github.com/goodsh/CGBTEST.git" port="21">
-          <option name="port" value="21" />
-        </fileTransfer>
+        <fileTransfer port="0" mountedRoot="F:\studyTest\CGBTEST" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
