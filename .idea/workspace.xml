@@ -10,14 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Test/com/test/service/TestAOP01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/service/logingAspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGBTEST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGBTEST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CGBTEST_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CGBTEST_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/com/db/sys/controller/SysUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysUserController.class" afterDir="false" />
     </list>
-    <list id="ec034c64-2a7f-43bd-9484-76114c4bd7fb" name="dom05" comment="">
-      <change afterPath="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/md/TestMd501.java" afterDir="false" />
-    </list>
+    <list id="ec034c64-2a7f-43bd-9484-76114c4bd7fb" name="dom05" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/CGB-JAVA-V01/target/" />
@@ -85,11 +93,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/HelloServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+            <state relative-caret-position="297">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Test/com/test/service/TestAOP01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2673">
+              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="47" column="64" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="64" />
+              <folding>
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1414#1415#0" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/service/logingAspect/LoggingAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,25 +168,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="springxml" />
         <option value="FxmlFile" />
+        <option value="springxml" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>btn-cancel</find>
-      <find>table-hover</find>
-      <find>ShiroException</find>
-      <find>roleId</find>
-      <find>inser</find>
-      <find>menuIds</find>
-      <find>tbodyId</find>
-      <find>input-group-btn</find>
-      <find>insertRoleMenuObject</find>
       <find>findObjectById</find>
       <find>findMenuIdsByRoleId</find>
       <find>doFindZTreeNodes</find>
@@ -140,6 +199,15 @@
       <find>cacheTest</find>
       <find>ehCacheManager</find>
       <find>memberRealm</find>
+      <find>aspectjweaver</find>
+      <find>aspectjrt</find>
+      <find>Proxy</find>
+      <find>override</find>
+      <find>search from file</find>
+      <find>FileSearchServiceImpl</find>
+      <find>file search result</find>
+      <find>target</find>
+      <find>search</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,15 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/service/SysUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/ShiroUserRealm.java" />
-        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/service/ShiroUserRealm.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.html" />
-        <option value="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/md/TestMd501.java" />
-        <option value="$PROJECT_DIR$/src/main/src/com/db/common/exception/ServiceException.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/starter.html" />
         <option value="$PROJECT_DIR$/src/main/src/com/db/sys/dao/SysUserDao.java" />
@@ -206,7 +265,6 @@
         <option value="$PROJECT_DIR$/src/main/src/com/db/common/web/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/eaadasda.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/ehcache1.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/das.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/eadsad" />
@@ -220,6 +278,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sys/user_list.html" />
         <option value="$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/service/logingAspect/LoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop.xml" />
+        <option value="$PROJECT_DIR$/src/main/Test/com/test/service/TestAOP01.java" />
+        <option value="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/reflect/TestProxy03.java" />
+        <option value="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy03.java" />
+        <option value="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy01.java" />
+        <option value="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy02.java" />
       </list>
     </option>
   </component>
@@ -255,17 +323,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="907" />
-    <option name="y" value="1" />
+    <option name="x" value="-10" />
     <option name="width" value="990" />
-    <option name="height" value="1020" />
+    <option name="height" value="1039" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,6 +344,24 @@
             <path>
               <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
               <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="CGB-JAVA-V01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="CGB-JAVA-V01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="CGB-JAVA-V01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,6 +369,13 @@
               <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
@@ -316,13 +409,59 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="logingAspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,7 +478,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/Test/com/test" />
-    <property name="last_opened_file_path" value="F:/dasdas/CGB-DB-SYS-V2.01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/reflect" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -352,7 +491,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20114942" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
@@ -366,11 +505,11 @@
       <recent name="com.db.common.vo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\studyTest\CGBTEST\CGB-JAVA-V01\src\cgb\java\reflect" />
       <recent name="F:\studyTest\CGBTEST\src\main\webapp\WEB-INF\pages\sys" />
       <recent name="F:\studyTest\CGBTEST\src\main\resources" />
       <recent name="F:\studyTest\CGBTEST\src\main\src\com\db\sys\dao" />
       <recent name="F:\studyTest\CGBTEST\src\main\resources\mapper\sys" />
-      <recent name="F:\studyTest\CGBTEST\src\main\src\com\db\sys\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,48 +524,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.39">
-    <configuration name="TestMenuDao.testdeleteObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestProxy02">
+    <configuration name="TestProxy01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cgb.java.mode.proxy.TestProxy01" />
       <module name="CGBTEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="cgb.java.mode.proxy.*" />
           <option name="ENABLED" value="true" />
-          <option name="INCLUDE" value="false" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="G:\configuration\jdk1.8.0_211\jre" />
-      <option name="PACKAGE_NAME" value="com.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.test.dao.TestMenuDao" />
-      <option name="METHOD_NAME" value="testdeleteObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMenuDao.testinsertObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProxy02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cgb.java.mode.proxy.TestProxy02" />
       <module name="CGBTEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="cgb.java.mode.proxy.*" />
           <option name="ENABLED" value="true" />
-          <option name="INCLUDE" value="false" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="G:\configuration\jdk1.8.0_211\jre" />
-      <option name="PACKAGE_NAME" value="com.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.test.dao.TestMenuDao" />
-      <option name="METHOD_NAME" value="testinsertObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMenuDao.tewsdMesda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAOP01.tesa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CGBTEST" />
       <extension name="coverage">
         <pattern>
@@ -437,9 +562,9 @@
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="G:\configuration\jdk1.8.0_211\jre" />
-      <option name="PACKAGE_NAME" value="com.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.test.dao.TestMenuDao" />
-      <option name="METHOD_NAME" value="tewsdMesda" />
+      <option name="PACKAGE_NAME" value="com.test.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.service.TestAOP01" />
+      <option name="METHOD_NAME" value="tesa" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -633,26 +758,26 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestProxy01" />
+      <item itemvalue="Application.TestProxy02" />
       <item itemvalue="JUnit.TestRoleDao.testfindObjectById" />
-      <item itemvalue="JUnit.TestMenuDao.tewsdMesda" />
-      <item itemvalue="JUnit.TestMenuDao.testinsertObject" />
-      <item itemvalue="JUnit.TestMenuDao.testdeleteObject" />
       <item itemvalue="JUnit.TestRoleDao.testfindMenuIdsByRoleIds" />
       <item itemvalue="JUnit.TestUserDao.findRoleIdsByUserId" />
+      <item itemvalue="JUnit.TestAOP01.tesa" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.39" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestProxy02" />
+        <item itemvalue="Application.TestProxy01" />
+        <item itemvalue="JUnit.TestAOP01.tesa" />
         <item itemvalue="JUnit.TestUserDao.findRoleIdsByUserId" />
         <item itemvalue="JUnit.TestRoleDao.testfindMenuIdsByRoleIds" />
-        <item itemvalue="JUnit.TestMenuDao.tewsdMesda" />
-        <item itemvalue="JUnit.TestMenuDao.testdeleteObject" />
-        <item itemvalue="JUnit.TestMenuDao.testinsertObject" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\赵先生\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -797,7 +922,9 @@
       <workItem from="1583333957818" duration="6877000" />
       <workItem from="1583393118958" duration="2210000" />
       <workItem from="1583421952397" duration="597000" />
-      <workItem from="1583474607416" duration="805000" />
+      <workItem from="1583474607416" duration="8488000" />
+      <workItem from="1583566981774" duration="8113000" />
+      <workItem from="1583587275668" duration="6000000" />
     </task>
     <task id="LOCAL-00001" summary="提交成功">
       <created>1578210601946</created>
@@ -943,24 +1070,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMenuDao_testdeleteObject - 2020.03.01 at 16h 40m 18s.xml">
-      <configuration name="TestMenuDao.testdeleteObject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMenuDao_tewsdMesda - 2020.03.01 at 16h 41m 17s.xml">
-      <configuration name="TestMenuDao.tewsdMesda" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMenuDao_tewsdMesda - 2020.03.01 at 16h 42m 47s.xml">
-      <configuration name="TestMenuDao.tewsdMesda" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRoleDao_testfindMenuIdsByRoleIds - 2020.03.01 at 17h 40m 04s.xml">
-      <configuration name="TestRoleDao.testfindMenuIdsByRoleIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRoleDao_testfindObjectById - 2020.03.02 at 11h 37m 05s.xml">
-      <configuration name="TestRoleDao.testfindObjectById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRoleDao_testfindMenuIdsByRoleIds - 2020.03.02 at 11h 44m 12s.xml">
-      <configuration name="TestRoleDao.testfindMenuIdsByRoleIds" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRoleDao_testfindMenuIdsByRoleIds - 2020.03.02 at 11h 51m 51s.xml">
       <configuration name="TestRoleDao.testfindMenuIdsByRoleIds" configurationId="JUnit" />
     </history-entry>
@@ -973,9 +1082,27 @@
     <history-entry file="TestUserDao_findRoleIdsByUserId - 2020.03.02 at 11h 59m 07s.xml">
       <configuration name="TestUserDao.findRoleIdsByUserId" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestAOP01_tesa - 2020.03.06 at 16h 09m 43s.xml">
+      <configuration name="TestAOP01.tesa" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP01_tesa - 2020.03.06 at 16h 12m 51s.xml">
+      <configuration name="TestAOP01.tesa" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP01_tesa - 2020.03.06 at 16h 13m 29s.xml">
+      <configuration name="TestAOP01.tesa" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP01_tesa - 2020.03.06 at 16h 23m 10s.xml">
+      <configuration name="TestAOP01.tesa" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP01_tesa - 2020.03.06 at 16h 31m 27s.xml">
+      <configuration name="TestAOP01.tesa" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP01_tesa - 2020.03.06 at 16h 31m 59s.xml">
+      <configuration name="TestAOP01.tesa" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="700808000" />
+    <option name="totallyTimeSpent" value="722604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,10 +1114,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="1" width="792" height="816" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" weight="0.40871936" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" weight="0.8201635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1001,7 +1128,7 @@
       <window_info id="JRebel" order="8" sideWeight="0.5010661" side_tool="true" weight="0.4305949" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31586403" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.44298247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.44050992" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.4220963" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1009,7 +1136,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" weight="0.32577905" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3288889" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3260234" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31948423" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402147" side_tool="true" weight="0.4305949" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3281471" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -1030,7 +1157,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.37064344" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.5354223" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.53485256" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.31233245" />
@@ -1133,115 +1260,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://G:/Maven/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/authz/ModularRealmAuthorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#2948#2949#0" expanded="true" />
-            <element signature="e#2982#2983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/src/com/db/common/web/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/authz/aop/AuthorizingAnnotationMethodInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/springframework/spring-aop/4.3.9.RELEASE/spring-aop-4.3.9.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="238" selection-start-line="238" selection-end-line="238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="834" selection-start-line="834" selection-end-line="834" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="910" selection-start-line="910" selection-end-line="910" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="847" selection-start-line="847" selection-end-line="847" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/configuration/apache-tomcat-8.5.39/lib/tomcat-websocket.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0.jar!/org/apache/shiro/web/servlet/AdviceFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0.jar!/org/apache/shiro/web/servlet/ProxiedFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/support/SubjectCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="386" selection-start-line="386" selection-end-line="386" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Maven/repository/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-          <folding>
-            <element signature="e#6061#6376#0" expanded="true" />
-            <element signature="e#6375#6376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://G:/Maven/repository/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -1362,13 +1380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://G:/Maven/repository/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/handler/SimpleMappingExceptionResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -1472,10 +1483,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/controller/SysUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+        <state relative-caret-position="276">
+          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/com/test/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/configuration/jdk1.8.0_211/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="170" column="17" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/configuration/jdk1.8.0_211/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/configuration/jdk1.8.0_211/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/configuration/jdk1.8.0_211/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/service/impl/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/com/test/service/TestAOP01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/src/com/db/sys/service/logingAspect/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/com/test/service/TestSysLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/configuration/jdk1.8.0_211/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="118" column="28" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/configuration/jdk1.8.0_211/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="47" column="64" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="64" />
+          <folding>
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGB-JAVA-V01/src/cgb/java/mode/proxy/TestProxy02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
         </state>
       </provider>
     </entry>
