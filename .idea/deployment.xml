@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="https://github.com/goodsh/CGBTEST.git">
+  <component name="PublishConfigData" uploadOnCheckin="3cb2bb86-1d37-4431-a5bf-81f89e54d054">
     <serverData>
       <paths name="https://github.com/goodsh/CGBTEST.git">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="https://github.com/goodsh/CGBTEST.git" />
+            <mapping local="$PROJECT_DIR$" web="https://github.com/goodsh/CGBTEST" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/goodsh/CGBTEST.git" />
   </component>
 </project>
