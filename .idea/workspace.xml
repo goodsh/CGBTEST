@@ -10,8 +10,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/Aspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/DaoProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/DaoProxyHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/DatabaseSearchServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/DefaultExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/DefaultSqlSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/Executor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/FileSearchServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/JoinPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/ProxyHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/SearchDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/SearchProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/SearchProxyHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/SearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/SqlSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/TargetProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/TestProxy01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/TestProxy02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/TestProxy03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cgb/java/mode/proxy/TransactionAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/HelloService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/impl/HelloServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/db/sys/service/logingAspect/LoggingAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/service/TestAOP01.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/db/sys/controller/SysUserController.class" afterDir="false" />
     </list>
     <list id="ec034c64-2a7f-43bd-9484-76114c4bd7fb" name="dom05" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -913,7 +938,7 @@
       <workItem from="1583474607416" duration="8488000" />
       <workItem from="1583566981774" duration="8113000" />
       <workItem from="1583587275668" duration="6000000" />
-      <workItem from="1583648912307" duration="162000" />
+      <workItem from="1583648912307" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="提交成功">
       <created>1578210601946</created>
@@ -1062,7 +1087,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583648987749</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="用户页码2">
+      <created>1583649084039</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1583649084039</updated>
+    </task>
+    <task id="LOCAL-00023" summary="用户页码2">
+      <created>1583649194656</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1583649194656</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1098,7 +1137,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="722766000" />
+    <option name="totallyTimeSpent" value="722937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
