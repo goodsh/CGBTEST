@@ -9,7 +9,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
+    <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="用户页码2">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="ec034c64-2a7f-43bd-9484-76114c4bd7fb" name="dom05" comment="" />
@@ -326,122 +328,6 @@
             <path>
               <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
               <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="CGB-JAVA-V01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="CGB-JAVA-V01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="CGB-JAVA-V01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="logingAspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CGB-TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CGBTEST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -912,7 +798,7 @@
       <workItem from="1583474607416" duration="8488000" />
       <workItem from="1583566981774" duration="8113000" />
       <workItem from="1583587275668" duration="6000000" />
-      <workItem from="1583648912307" duration="666000" />
+      <workItem from="1583648912307" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="提交成功">
       <created>1578210601946</created>
@@ -1103,7 +989,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583649486446</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="用户页码2">
+      <created>1583649592244</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1583649592244</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1139,7 +1032,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="723270000" />
+    <option name="totallyTimeSpent" value="723860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1153,7 +1046,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.81970507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.81970507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1179,7 +1072,7 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.305949" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.6294201" />
       <window_info anchor="bottom" id="Inspection Results" order="16" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="17" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="File Transfer" order="17" weight="0.32577905" />
       <window_info anchor="bottom" id="Spring" order="18" weight="0.3286119" />
       <window_info anchor="bottom" id="Problems" order="19" />
       <window_info anchor="bottom" id="JRebel Executor" order="20" sideWeight="0.4966488" weight="0.33427763" />
@@ -1283,6 +1176,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/CGBTEST" />
+    </ignored-roots>
     <MESSAGE value="提交成功" />
     <MESSAGE value="添加页面" />
     <MESSAGE value="修改页面" />
