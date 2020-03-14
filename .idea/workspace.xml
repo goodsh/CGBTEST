@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f5a9e1-1508-4dee-92b9-b5250557a7d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CGBTEST_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CGBTEST_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/cgb/java/reflect/generic/TestGeneric01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/cgb/java/reflect/generic/TestGeneric02.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/classes/cgb/java/reflect/oop/Boy.class" beforeDir="false" />
@@ -49,15 +46,6 @@
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.2.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-cache-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-config-core-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-core-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-event-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-lang-1.4.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-web-1.4.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.9.RELEASE.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CGB-TEST-0.0.1-SNAPSHOT/WEB-INF/pages/sys/menu_edit.html" beforeDir="false" />
@@ -2350,7 +2338,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="915" />
     <option name="y" value="5" />
     <option name="width" value="980" />
@@ -3010,7 +2998,7 @@
       <workItem from="1584092014478" duration="751000" />
       <workItem from="1584152212104" duration="2007000" />
       <workItem from="1584157939535" duration="591000" />
-      <workItem from="1584210348681" duration="921000" />
+      <workItem from="1584210348681" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="提交成功">
       <created>1578210601946</created>
@@ -3264,7 +3252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584210879889</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="日志记录">
+      <created>1584211391855</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1584211391855</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3300,7 +3295,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="777028000" />
+    <option name="totallyTimeSpent" value="777228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3340,7 +3335,7 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3045326" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.6294201" />
       <window_info anchor="bottom" id="Inspection Results" order="16" />
-      <window_info anchor="bottom" id="File Transfer" order="17" weight="0.3243626" />
+      <window_info anchor="bottom" id="File Transfer" order="17" visible="true" weight="0.3243626" />
       <window_info anchor="bottom" id="Spring" order="18" weight="0.3286119" />
       <window_info anchor="bottom" id="Problems" order="19" />
       <window_info anchor="bottom" id="JRebel Executor" order="20" sideWeight="0.4966488" weight="0.33002833" />
