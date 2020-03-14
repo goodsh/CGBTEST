@@ -1,6 +1,7 @@
 package com.db.sys.service.impl;
 
 import cgb.java.reflect.serializable.SysUser;
+import com.db.common.annotation.RequiredLog;
 import com.db.common.exception.ServiceException;
 import com.db.common.vo.DeptNode;
 import com.db.sys.dao.SysDeptDao;
@@ -25,7 +26,7 @@ public class SysDeptServiceImpI implements SysDeptService {
     private SysDeptDao sysDeptDao;
     @Autowired
     private SysUserDao sysUserDao;
-
+    @RequiredLog("部门分页")
     @Override
     public List<Map<String, Object>> deptfindObjects() {
         List<Map<String, Object>> list =

@@ -40,24 +40,8 @@
     <!-- 加载spring-web.xml -->
     <import resource="classpath:spring-web.xml"/>
 
-<!--    <bean id="ehCacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">-->
-
-<!--        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"></property>-->
-
-<!--    </bean>-->
-
-<!--    &lt;!&ndash; 配置SecurityManager的管理 &ndash;&gt;-->
-
-<!--    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">-->
-
-<!--        &lt;!&ndash; 配置你需要使用的Realms &ndash;&gt;-->
-
-<!--        <property name="realm" ref="shiroUserRealm"></property>-->
-
-<!--        <property name="cacheManager" ref="ehCacheManager"></property>-->
-
-<!--    </bean>-->
-
+    <!--启用AOP -->
+    <aop:aspectj-autoproxy/>
 
 </beans>
 

@@ -1,5 +1,6 @@
 package com.db.sys.service.impl;
 
+import com.db.common.annotation.RequiredLog;
 import com.db.common.exception.ServiceException;
 import com.db.common.vo.PageObject;
 import com.db.sys.dao.SysLogDao;
@@ -21,7 +22,7 @@ import java.util.List;
 public class SysLogServiceImpl implements SysLogService {
     @Autowired
     private SysLogDao sysLogDao;
-
+    @RequiredLog("日志分页查询")
     @Override
     public PageObject<SysLog> findPageObjects(String username, Integer pageCurrent) {
         if (pageCurrent == null || pageCurrent < 1) {
@@ -59,6 +60,7 @@ public class SysLogServiceImpl implements SysLogService {
      * “sys:log:delete”权限标识才能访问
      * 此方法。
      */
+    @RequiredLog("删除操作")
     @RequiresPermissions("sys:log:delete")
     @Override
     public int deleteObjects(Integer... ids) {

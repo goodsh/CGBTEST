@@ -66,6 +66,11 @@ public class SysLogDaoImpl implements SysLogDao{
 		//4.返回查询结果
 		return list;
 	}
+
+	@Override
+	public int insertObject(SysLog entity) {
+		return 0;
+	}
 }
 
 

@@ -54,21 +54,30 @@ class SearchProxyHandler implements InvocationHandler{
 	  public SearchProxyHandler(Object target) {
 	    this.target=target;
 	  }
-	  /**当执行代理对象的业务方法时，会执行此方法*/
+
+	/** 当执行代理对象时候执行此方法
+	 * 处理业务调用的函数(此方法会在代理对象业务方法执行时调用)
+	 * 1)扩展业务(我们要扩展的功能)
+	 * 2)核心业务(目标对象方法的调用)
+	 *
+	 * @param proxy  指向代理对象
+	 * @param method 目标接口方法对象
+	 * @param args   方法执行时参数
+	 */
 	  @Override
 	  public Object invoke(Object proxy, 
 			  Method method,
 			  Object[] args) throws Throwable {
 		System.out.println("start time: "+System.nanoTime());
 	    //执行目标对象target的method方法
-	    Object result=method.invoke(target, args);
+	    Object result=method.invoke(target, args);//target目标的对象 args就是 proxy.search("tedu");传的值
 	    System.out.println("end time: "+System.nanoTime());
 		return result;
 	  }
 }
 public class TestProxy01 {
     public static void main(String[] args) {
-        doMethod02();
+		doMethod01();
     }
     public static void doMethod02(){
     	SearchService service=(SearchService)

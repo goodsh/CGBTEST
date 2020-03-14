@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	uglify = require('gulp-uglify'),
-	util = require('gulp-util'),
+	util = require('gulp-utils'),
 	jshint = require('gulp-jshint'),
 	size = require('gulp-size'),
 	connect = require('gulp-connect'),

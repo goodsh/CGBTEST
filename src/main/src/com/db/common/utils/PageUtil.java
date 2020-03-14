@@ -1,4 +1,4 @@
-package com.db.common.util;
+package com.db.common.utils;
 
 import java.util.List;
 

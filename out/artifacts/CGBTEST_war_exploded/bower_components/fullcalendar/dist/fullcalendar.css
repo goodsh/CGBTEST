@@ -453,7 +453,7 @@ temporary rendered events).
 	/* 40x40 touch area */
 	content: "";
 	position: absolute;
-	z-index: 9999; /* user of this util can scope within a lower z-index */
+	z-index: 9999; /* user of this utils can scope within a lower z-index */
 	top: 50%;
 	left: 50%;
 	width: 40px;

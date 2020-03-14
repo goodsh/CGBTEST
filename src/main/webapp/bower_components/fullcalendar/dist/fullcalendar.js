@@ -13129,7 +13129,7 @@ Calendar.prototype.constraintValToFootprints = function(constraintVal, isAllDay)
 };
 
 
-// conversion util
+// conversion utils
 Calendar.prototype.eventInstancesToFootprints = function(eventInstances) {
 	return eventFootprintsToComponentFootprints(
 		this.eventRangesToEventFootprints(
@@ -14457,7 +14457,7 @@ var EventPeriod = Class.extend(EmitterMixin, {
 
 
 	isWithinRange: function(start, end) {
-		// TODO: use a range util function?
+		// TODO: use a range utils function?
 		return !start.isBefore(this.start) && !end.isAfter(this.end);
 	},
 

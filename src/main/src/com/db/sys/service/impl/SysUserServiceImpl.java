@@ -1,7 +1,8 @@
 package com.db.sys.service.impl;
 
+import com.db.common.annotation.RequiredLog;
 import com.db.common.exception.ServiceException;
-import com.db.common.util.PageUtil;
+import com.db.common.utils.PageUtil;
 import com.db.common.vo.PageObject;
 import com.db.sys.dao.SysUserDao;
 import com.db.sys.dao.SysUserRoleDao;
@@ -14,7 +15,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -29,7 +29,7 @@ public class SysUserServiceImpl implements SysUserService {
     private SysUserDao sysUserDao;
     @Autowired
     private SysUserRoleDao sysUserRoleDao;
-
+    @RequiredLog("用户分页查询")
     @Override
     public PageObject<SysUserDeptVo> findPageObjects(String username, Integer pageCurrent) {
         if (pageCurrent == null || pageCurrent < 1) {
@@ -52,6 +52,7 @@ public class SysUserServiceImpl implements SysUserService {
     }
 
     @Override
+    @RequiredLog("执行禁用或启用")
     public int validById(Integer id, Integer validById, String modifiedUser) {
         if (id == null || id < 0) {
             throw new IllegalArgumentException("参数不合法,id=" + id);

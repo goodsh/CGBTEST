@@ -1,10 +1,9 @@
 package com.db.sys.service.impl;
 
 import com.db.common.exception.ServiceException;
-import com.db.common.util.PageUtil;
+import com.db.common.utils.PageUtil;
 import com.db.common.vo.CheckBox;
 import com.db.common.vo.PageObject;
-import com.db.common.vo.SysRoleMenuResult;
 import com.db.sys.dao.SysRoleDao;
 import com.db.sys.dao.SysRoleMenuDao;
 import com.db.sys.dao.SysUserRoleDao;
@@ -15,9 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Service
 public class SysRoleServiceImpl implements SysRoleService {

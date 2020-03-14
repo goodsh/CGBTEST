@@ -81,6 +81,11 @@
             <artifactId>spring-context</artifactId>
             <version>4.3.9.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>com.pentahohub.nexus</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>20150820220052</version>
+        </dependency>
         <!--
          Spring AOP的实现依托于Aspect框架(AOP框架)
          所以要引用1.8.5有问题 -->
