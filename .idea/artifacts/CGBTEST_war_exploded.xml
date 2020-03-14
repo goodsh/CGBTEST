@@ -27,7 +27,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.9.RELEASE" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.10.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.10.3" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.10" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.10" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.4.0" />
