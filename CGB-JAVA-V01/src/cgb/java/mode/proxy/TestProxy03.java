@@ -13,13 +13,13 @@ interface Executor {
      */
     void execute(String statement);
 }
-
 /**
  * Executor对象的默认实现
  */
 class DefaultExecutor implements Executor {
     @Override
     public void execute(String statement) {
+        System.out.println("execute " + statement);
         System.out.println("execute " + statement);
     }//OCP
 }
@@ -28,12 +28,12 @@ class DefaultExecutor implements Executor {
  * 创建一个工厂对象用于为目标对象创建代理对象
  */
 class TargetProxyFactory {
-    public static Object newProxy(Object target, Aspect aspect) {
+    public static Object newProxy(Object target,Aspect aspect) {
         return Proxy.newProxyInstance(
                 target.getClass().getClassLoader(),
                 target.getClass().getInterfaces(),
                 //在这个位置写this这个类要实现一个接口 不写的话就要去new InvocationHandler
-                new ProxyHandler(target, aspect));
+                new ProxyHandler(target ,aspect));
     }
 }
 
@@ -54,7 +54,7 @@ class ProxyHandler implements InvocationHandler {
      *
      * @param proxy  指向代理对象
      * @param method 目标接口方法对象
-     * @param args   方法执行时参数 是调用业务方法时候传递的参数
+     * @param args   方法执行时参数 是通过反射调用业务方法时候传递的参数
      */
     @Override
     public Object invoke(Object proxy,
@@ -65,14 +65,14 @@ class ProxyHandler implements InvocationHandler {
 //		System.out.println("end:"+System.nanoTime());
 //		return result;
         //----业务实现方式2
-//		JoinPoint jp=new JoinPoint(target, method, args);
-//		LogAspect logAspect=new LogAspect();
-//		Object result=logAspect.around(jp);
-//		return result;
+		JoinPoint jp=new JoinPoint(target, method, args);
+		LogAspect logAspect=new LogAspect();
+		Object result=logAspect.around(jp);
+		return result;
         //----业务实现方法3
-        JoinPoint jp = new JoinPoint(target, method, args);
-        Object result = aspect.around(jp);
-        return result;
+//        JoinPoint jp = new JoinPoint(target, method, args);
+//        Object result = aspect.around(jp);
+//        return result;
     }
 }
 class JoinPoint {//连接点(借助此对象封装方法信息)
@@ -123,12 +123,13 @@ public class TestProxy03 {//JVM
     static public void main(String[] args) {
         //1.目标对象
         Executor target = new DefaultExecutor();
-        //2.创建代理对象
+        //2.为目标对象创建一个代理对象
         //2.1创建日志切面对象
         LogAspect aspect1 = new LogAspect();
         TransactionAspect aspect2 = new TransactionAspect();
+        //创建代理工厂
         Executor proxy =
-                (Executor) TargetProxyFactory.newProxy(target, aspect2);
+                (Executor) TargetProxyFactory.newProxy(target,aspect1);
         //3.调用业务方法
         proxy.execute("select statement ");
     }
